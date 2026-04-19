@@ -26,9 +26,10 @@ export class AuthService {
             console.log('Signup response status:', response.status);
 
             if (!response.ok) {
-                const errorText = await response.text();
-                console.error('Signup error:', errorText);
-                throw new Error(`Signup failed: ${response.status} ${errorText}`);
+                const errorData = await response.json().catch(() => ({}));
+                const errorMessage = errorData.error || `Signup failed: ${response.status}`;
+                console.error('Signup error:', errorMessage);
+                throw new Error(errorMessage);
             }
 
             const user = await response.json();
@@ -64,9 +65,10 @@ export class AuthService {
             console.log('Login response status:', response.status);
 
             if (!response.ok) {
-                const errorText = await response.text();
-                console.error('Login error:', errorText);
-                throw new Error(`Login failed: ${response.status} ${errorText}`);
+                const errorData = await response.json().catch(() => ({}));
+                const errorMessage = errorData.error || `Login failed: ${response.status}`;
+                console.error('Login error:', errorMessage);
+                throw new Error(errorMessage);
             }
 
             const user = await response.json();

@@ -85,6 +85,9 @@ export class AuthPage {
         const result = await AuthService.login(email, password);
         if (result.success) {
             Helpers.showSuccess('Logged in successfully!');
+            // Sync cart from server after login
+            const { Navbar } = await import('../components/navbar.js');
+            await Navbar.syncCartFromServer();
             App.navigate(ROUTES.HOME);
             setTimeout(() => {
                 window.location.reload();

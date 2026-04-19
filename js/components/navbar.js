@@ -82,7 +82,36 @@ export class Navbar {
     static updateCartCount() {
         const cartCount = document.querySelector('.cart-count');
         if (cartCount) {
-            cartCount.textContent = StorageService.getCart().length;
+            const cart = StorageService.getCart();
+            const totalItems = cart.reduce((sum, item) => sum + (item.quantity || 1), 0);
+            cartCount.textContent = totalItems;
+        }
+    }
+
+    static async syncCartFromServer() {
+        const user = StorageService.getUser();
+        if (user && user.id) {
+            try {
+                const { CartApiService } = await import('../api/cartService.js');
+                const result = await CartApiService.getCart(user.id);
+                if (result.success && result.cart && result.cart.items) {
+                    // Map server cart items to frontend format
+                    const cart = result.cart.items.map(item => ({
+                        id: item.productId,
+                        cartItemId: item.id,
+                        title: item.productName,
+                        price: item.price,
+                        image: item.imageUrl || `js/image/iphone${(item.productId % 2 === 0) ? '14' : '13'}.jpg`,
+                        quantity: item.quantity
+                    }));
+                    // Update local storage
+                    StorageService.setCart(cart);
+                    // Update cart count display
+                    this.updateCartCount();
+                }
+            } catch (error) {
+                console.error('[Navbar] Failed to sync cart from server:', error);
+            }
         }
     }
 }

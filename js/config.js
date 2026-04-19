@@ -8,6 +8,8 @@ export const API_CONFIG = {
     ORDER_SERVICE: 'http://localhost:8088/orders',
     PAYMENT_SERVICE: 'http://localhost:8088/api/payments',
     SEARCH_SERVICE: 'http://localhost:8088/search',
+    INVENTORY_SERVICE: 'http://localhost:8088/inventory',
+    CART_SERVICE: 'http://localhost:8088/cart',
 };
 
 export const APP_CONFIG = {

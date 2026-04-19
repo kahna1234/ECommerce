@@ -3,6 +3,7 @@
 // ============================================
 
 import { StorageService } from '../utils/storage.js';
+import { CartApiService } from '../api/cartService.js';
 import { OrderService } from '../api/orderService.js';
 import { PaymentService } from '../api/paymentService.js';
 import { Validators } from '../utils/validators.js';
@@ -146,8 +147,14 @@ export class CheckoutPage {
         });
 
         if (paymentResult.success) {
+            // Clear localStorage cart
             StorageService.clearCart();
             Navbar.updateCartCount();
+            // Also clear server-side cart
+            const user = StorageService.getUser();
+            if (user && user.id) {
+                await CartApiService.clearCart(user.id);
+            }
             Helpers.showSuccess('Order created! Redirecting to payment...');
             
             setTimeout(() => {
