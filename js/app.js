@@ -41,6 +41,9 @@ class App {
         this.currentParams = params;
         window.location.hash = route;
 
+        // Re-render navbar on every route change to update login state
+        Navbar.render();
+
         switch (route) {
             case ROUTES.HOME:
                 this.renderHome();

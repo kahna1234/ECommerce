@@ -12,6 +12,7 @@ export class Navbar {
         const navbar = document.getElementById('navbar');
         const isLoggedIn = AuthService.isLoggedIn();
         const user = AuthService.getCurrentUser();
+        console.log('[Navbar] render - isLoggedIn:', isLoggedIn, 'user:', user);
 
         navbar.innerHTML = `
             <div class="navbar-container">

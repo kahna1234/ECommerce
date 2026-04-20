@@ -27,7 +27,21 @@ export class AuthService {
 
             if (!response.ok) {
                 const errorData = await response.json().catch(() => ({}));
-                const errorMessage = errorData.error || `Signup failed: ${response.status}`;
+                let errorMessage = `Signup failed: ${response.status}`;
+                
+                // Handle validation errors from @Valid annotations
+                if (response.status === 400) {
+                    if (errorData.errors && Array.isArray(errorData.errors)) {
+                        errorMessage = errorData.errors.join(', ');
+                    } else if (errorData.message) {
+                        errorMessage = errorData.message;
+                    } else if (errorData.error) {
+                        errorMessage = errorData.error;
+                    }
+                } else if (errorData.error) {
+                    errorMessage = errorData.error;
+                }
+                
                 console.error('Signup error:', errorMessage);
                 throw new Error(errorMessage);
             }
@@ -66,7 +80,21 @@ export class AuthService {
 
             if (!response.ok) {
                 const errorData = await response.json().catch(() => ({}));
-                const errorMessage = errorData.error || `Login failed: ${response.status}`;
+                let errorMessage = `Login failed: ${response.status}`;
+                
+                // Handle validation errors from @Valid annotations
+                if (response.status === 400) {
+                    if (errorData.errors && Array.isArray(errorData.errors)) {
+                        errorMessage = errorData.errors.join(', ');
+                    } else if (errorData.message) {
+                        errorMessage = errorData.message;
+                    } else if (errorData.error) {
+                        errorMessage = errorData.error;
+                    }
+                } else if (errorData.error) {
+                    errorMessage = errorData.error;
+                }
+                
                 console.error('Login error:', errorMessage);
                 throw new Error(errorMessage);
             }
