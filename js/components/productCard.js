@@ -30,10 +30,14 @@ export class ProductCard {
             : qty > 0
                 ? `<span class="stock-badge in-stock">In Stock (${qty})</span>`
                 : `<span class="stock-badge out-of-stock">Out of Stock</span>`;
+        const cartQuantity = this.getCartQuantity(product.id);
 
         card.innerHTML = `
             <div class="product-image">
                 <img src="${imagePath}" alt="${product.title || product.name || 'Product'}">
+                <span class="cart-quantity-badge ${cartQuantity > 0 ? 'visible' : ''}" data-cart-quantity>
+                    +${cartQuantity}
+                </span>
             </div>
             <div class="product-info">
                 <h3 class="product-title">${product.title || product.name || 'Product'}</h3>
@@ -64,6 +68,7 @@ export class ProductCard {
 
                 // Always add to localStorage (works for anonymous users too)
                 StorageService.addToCart(cartItem);
+                this.updateCartQuantityBadge(card, product.id);
                 Navbar.updateCartCount();
 
                 // Also sync to server-side CartService if user is logged in
@@ -83,5 +88,22 @@ export class ProductCard {
         }
 
         return card;
+    }
+
+    static getCartQuantity(productId) {
+        const item = StorageService.getCart().find(cartItem => cartItem.id === productId);
+        return item ? item.quantity : 0;
+    }
+
+    static updateCartQuantityBadge(card, productId) {
+        const badge = card.querySelector('[data-cart-quantity]');
+        const quantity = this.getCartQuantity(productId);
+
+        if (!badge) {
+            return;
+        }
+
+        badge.textContent = `+${quantity}`;
+        badge.classList.toggle('visible', quantity > 0);
     }
 }

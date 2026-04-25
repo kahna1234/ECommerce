@@ -3,13 +3,13 @@
 // ============================================
 
 export const API_CONFIG = {
-    AUTH_SERVICE: 'http://localhost:8088/auth',
-    PRODUCT_SERVICE: 'http://localhost:8088/products',
-    ORDER_SERVICE: 'http://localhost:8088/orders',
-    PAYMENT_SERVICE: 'http://localhost:8088/api/payments',
-    SEARCH_SERVICE: 'http://localhost:8088/search',
-    INVENTORY_SERVICE: 'http://localhost:8088/inventory',
-    CART_SERVICE: 'http://localhost:8088/cart',
+    AUTH_SERVICE: '/auth',
+    PRODUCT_SERVICE: '/products',
+    ORDER_SERVICE: '/orders',
+    PAYMENT_SERVICE: '/api/payments',
+    SEARCH_SERVICE: '/search',
+    INVENTORY_SERVICE: '/inventory',
+    CART_SERVICE: '/cart',
 };
 
 export const APP_CONFIG = {
@@ -27,5 +27,6 @@ export const ROUTES = {
     ORDERS: '#orders',
     LOGIN: '#login',
     SIGNUP: '#signup',
+    PAYMENT_SUCCESS: '#payment-success',
 };
 
