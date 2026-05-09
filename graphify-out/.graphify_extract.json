@@ -1,0 +1,3565 @@
+{
+  "nodes": [
+    {
+      "id": "dev_server_js",
+      "label": "dev-server.js",
+      "file_type": "code",
+      "source_file": "dev-server.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "js_app_js",
+      "label": "app.js",
+      "file_type": "code",
+      "source_file": "js\\app.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "js_app_app",
+      "label": "App",
+      "file_type": "code",
+      "source_file": "js\\app.js",
+      "source_location": "L15"
+    },
+    {
+      "id": "js_app_app_init",
+      "label": ".init()",
+      "file_type": "code",
+      "source_file": "js\\app.js",
+      "source_location": "L19"
+    },
+    {
+      "id": "js_app_app_setuprouting",
+      "label": ".setupRouting()",
+      "file_type": "code",
+      "source_file": "js\\app.js",
+      "source_location": "L25"
+    },
+    {
+      "id": "js_app_app_rendercurrenthash",
+      "label": ".renderCurrentHash()",
+      "file_type": "code",
+      "source_file": "js\\app.js",
+      "source_location": "L31"
+    },
+    {
+      "id": "js_app_app_navigate",
+      "label": ".navigate()",
+      "file_type": "code",
+      "source_file": "js\\app.js",
+      "source_location": "L39"
+    },
+    {
+      "id": "js_app_app_renderhome",
+      "label": ".renderHome()",
+      "file_type": "code",
+      "source_file": "js\\app.js",
+      "source_location": "L80"
+    },
+    {
+      "id": "js_config_js",
+      "label": "config.js",
+      "file_type": "code",
+      "source_file": "js\\config.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "js_config_normalizebaseurl",
+      "label": "normalizeBaseUrl()",
+      "file_type": "code",
+      "source_file": "js\\config.js",
+      "source_location": "L5"
+    },
+    {
+      "id": "js_config_getapibaseurl",
+      "label": "getApiBaseUrl()",
+      "file_type": "code",
+      "source_file": "js\\config.js",
+      "source_location": "L16"
+    },
+    {
+      "id": "js_idletimeout_js",
+      "label": "idleTimeout.js",
+      "file_type": "code",
+      "source_file": "js\\idleTimeout.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "js_idletimeout_logoutuser",
+      "label": "logoutUser()",
+      "file_type": "code",
+      "source_file": "js\\idleTimeout.js",
+      "source_location": "L5"
+    },
+    {
+      "id": "js_idletimeout_resetidletimer",
+      "label": "resetIdleTimer()",
+      "file_type": "code",
+      "source_file": "js\\idleTimeout.js",
+      "source_location": "L18"
+    },
+    {
+      "id": "js_idletimeout_setupidletracking",
+      "label": "setupIdleTracking()",
+      "file_type": "code",
+      "source_file": "js\\idleTimeout.js",
+      "source_location": "L24"
+    },
+    {
+      "id": "js_api_authservice_js",
+      "label": "authService.js",
+      "file_type": "code",
+      "source_file": "js\\api\\authService.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "api_authservice_authservice",
+      "label": "AuthService",
+      "file_type": "code",
+      "source_file": "js\\api\\authService.js",
+      "source_location": "L8"
+    },
+    {
+      "id": "api_authservice_authservice_signup",
+      "label": ".signup()",
+      "file_type": "code",
+      "source_file": "js\\api\\authService.js",
+      "source_location": "L9"
+    },
+    {
+      "id": "api_authservice_authservice_login",
+      "label": ".login()",
+      "file_type": "code",
+      "source_file": "js\\api\\authService.js",
+      "source_location": "L63"
+    },
+    {
+      "id": "api_authservice_authservice_validatetoken",
+      "label": ".validateToken()",
+      "file_type": "code",
+      "source_file": "js\\api\\authService.js",
+      "source_location": "L116"
+    },
+    {
+      "id": "api_authservice_authservice_logout",
+      "label": ".logout()",
+      "file_type": "code",
+      "source_file": "js\\api\\authService.js",
+      "source_location": "L139"
+    },
+    {
+      "id": "api_authservice_authservice_isloggedin",
+      "label": ".isLoggedIn()",
+      "file_type": "code",
+      "source_file": "js\\api\\authService.js",
+      "source_location": "L152"
+    },
+    {
+      "id": "api_authservice_authservice_getcurrentuser",
+      "label": ".getCurrentUser()",
+      "file_type": "code",
+      "source_file": "js\\api\\authService.js",
+      "source_location": "L156"
+    },
+    {
+      "id": "js_api_cartservice_js",
+      "label": "cartService.js",
+      "file_type": "code",
+      "source_file": "js\\api\\cartService.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "api_cartservice_cartapiservice",
+      "label": "CartApiService",
+      "file_type": "code",
+      "source_file": "js\\api\\cartService.js",
+      "source_location": "L7"
+    },
+    {
+      "id": "api_cartservice_cartapiservice_getcart",
+      "label": ".getCart()",
+      "file_type": "code",
+      "source_file": "js\\api\\cartService.js",
+      "source_location": "L13"
+    },
+    {
+      "id": "api_cartservice_cartapiservice_addtocart",
+      "label": ".addToCart()",
+      "file_type": "code",
+      "source_file": "js\\api\\cartService.js",
+      "source_location": "L35"
+    },
+    {
+      "id": "api_cartservice_cartapiservice_updateitem",
+      "label": ".updateItem()",
+      "file_type": "code",
+      "source_file": "js\\api\\cartService.js",
+      "source_location": "L59"
+    },
+    {
+      "id": "api_cartservice_cartapiservice_removeitem",
+      "label": ".removeItem()",
+      "file_type": "code",
+      "source_file": "js\\api\\cartService.js",
+      "source_location": "L80"
+    },
+    {
+      "id": "api_cartservice_cartapiservice_clearcart",
+      "label": ".clearCart()",
+      "file_type": "code",
+      "source_file": "js\\api\\cartService.js",
+      "source_location": "L99"
+    },
+    {
+      "id": "js_api_inventoryservice_js",
+      "label": "inventoryService.js",
+      "file_type": "code",
+      "source_file": "js\\api\\inventoryService.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "api_inventoryservice_inventoryservice",
+      "label": "InventoryService",
+      "file_type": "code",
+      "source_file": "js\\api\\inventoryService.js",
+      "source_location": "L7"
+    },
+    {
+      "id": "api_inventoryservice_inventoryservice_getinventory",
+      "label": ".getInventory()",
+      "file_type": "code",
+      "source_file": "js\\api\\inventoryService.js",
+      "source_location": "L13"
+    },
+    {
+      "id": "api_inventoryservice_inventoryservice_getallinventory",
+      "label": ".getAllInventory()",
+      "file_type": "code",
+      "source_file": "js\\api\\inventoryService.js",
+      "source_location": "L36"
+    },
+    {
+      "id": "api_inventoryservice_inventoryservice_updateinventory",
+      "label": ".updateInventory()",
+      "file_type": "code",
+      "source_file": "js\\api\\inventoryService.js",
+      "source_location": "L58"
+    },
+    {
+      "id": "js_api_orderservice_js",
+      "label": "orderService.js",
+      "file_type": "code",
+      "source_file": "js\\api\\orderService.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "api_orderservice_orderservice",
+      "label": "OrderService",
+      "file_type": "code",
+      "source_file": "js\\api\\orderService.js",
+      "source_location": "L8"
+    },
+    {
+      "id": "api_orderservice_orderservice_createorder",
+      "label": ".createOrder()",
+      "file_type": "code",
+      "source_file": "js\\api\\orderService.js",
+      "source_location": "L9"
+    },
+    {
+      "id": "api_orderservice_orderservice_getorderbyid",
+      "label": ".getOrderById()",
+      "file_type": "code",
+      "source_file": "js\\api\\orderService.js",
+      "source_location": "L39"
+    },
+    {
+      "id": "api_orderservice_orderservice_getuserorders",
+      "label": ".getUserOrders()",
+      "file_type": "code",
+      "source_file": "js\\api\\orderService.js",
+      "source_location": "L68"
+    },
+    {
+      "id": "api_orderservice_orderservice_prepareorderdata",
+      "label": ".prepareOrderData()",
+      "file_type": "code",
+      "source_file": "js\\api\\orderService.js",
+      "source_location": "L97"
+    },
+    {
+      "id": "api_orderservice_orderservice_calculatetotal",
+      "label": ".calculateTotal()",
+      "file_type": "code",
+      "source_file": "js\\api\\orderService.js",
+      "source_location": "L113"
+    },
+    {
+      "id": "api_orderservice_orderservice_cancelorder",
+      "label": ".cancelOrder()",
+      "file_type": "code",
+      "source_file": "js\\api\\orderService.js",
+      "source_location": "L117"
+    },
+    {
+      "id": "js_api_paymentservice_js",
+      "label": "paymentService.js",
+      "file_type": "code",
+      "source_file": "js\\api\\paymentService.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "api_paymentservice_paymentservice",
+      "label": "PaymentService",
+      "file_type": "code",
+      "source_file": "js\\api\\paymentService.js",
+      "source_location": "L8"
+    },
+    {
+      "id": "api_paymentservice_paymentservice_generatepaymentlink",
+      "label": ".generatePaymentLink()",
+      "file_type": "code",
+      "source_file": "js\\api\\paymentService.js",
+      "source_location": "L9"
+    },
+    {
+      "id": "api_paymentservice_paymentservice_openpaymentgateway",
+      "label": ".openPaymentGateway()",
+      "file_type": "code",
+      "source_file": "js\\api\\paymentService.js",
+      "source_location": "L48"
+    },
+    {
+      "id": "js_api_productservice_js",
+      "label": "productService.js",
+      "file_type": "code",
+      "source_file": "js\\api\\productService.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "api_productservice_productservice",
+      "label": "ProductService",
+      "file_type": "code",
+      "source_file": "js\\api\\productService.js",
+      "source_location": "L8"
+    },
+    {
+      "id": "api_productservice_productservice_getallproducts",
+      "label": ".getAllProducts()",
+      "file_type": "code",
+      "source_file": "js\\api\\productService.js",
+      "source_location": "L9"
+    },
+    {
+      "id": "api_productservice_productservice_getproductbyid",
+      "label": ".getProductById()",
+      "file_type": "code",
+      "source_file": "js\\api\\productService.js",
+      "source_location": "L37"
+    },
+    {
+      "id": "api_productservice_productservice_createproduct",
+      "label": ".createProduct()",
+      "file_type": "code",
+      "source_file": "js\\api\\productService.js",
+      "source_location": "L65"
+    },
+    {
+      "id": "api_productservice_productservice_updateproduct",
+      "label": ".updateProduct()",
+      "file_type": "code",
+      "source_file": "js\\api\\productService.js",
+      "source_location": "L94"
+    },
+    {
+      "id": "api_productservice_productservice_deleteproduct",
+      "label": ".deleteProduct()",
+      "file_type": "code",
+      "source_file": "js\\api\\productService.js",
+      "source_location": "L123"
+    },
+    {
+      "id": "js_api_searchservice_js",
+      "label": "searchService.js",
+      "file_type": "code",
+      "source_file": "js\\api\\searchService.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "api_searchservice_searchservice",
+      "label": "SearchService",
+      "file_type": "code",
+      "source_file": "js\\api\\searchService.js",
+      "source_location": "L7"
+    },
+    {
+      "id": "api_searchservice_searchservice_searchproducts",
+      "label": ".searchProducts()",
+      "file_type": "code",
+      "source_file": "js\\api\\searchService.js",
+      "source_location": "L8"
+    },
+    {
+      "id": "api_searchservice_searchservice_getsearchsuggestions",
+      "label": ".getSearchSuggestions()",
+      "file_type": "code",
+      "source_file": "js\\api\\searchService.js",
+      "source_location": "L48"
+    },
+    {
+      "id": "api_searchservice_searchservice_searchbycategory",
+      "label": ".searchByCategory()",
+      "file_type": "code",
+      "source_file": "js\\api\\searchService.js",
+      "source_location": "L93"
+    },
+    {
+      "id": "api_searchservice_searchservice_searchbyprice",
+      "label": ".searchByPrice()",
+      "file_type": "code",
+      "source_file": "js\\api\\searchService.js",
+      "source_location": "L98"
+    },
+    {
+      "id": "js_components_cartitem_js",
+      "label": "cartItem.js",
+      "file_type": "code",
+      "source_file": "js\\components\\cartItem.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "components_cartitem_cartitem",
+      "label": "CartItem",
+      "file_type": "code",
+      "source_file": "js\\components\\cartItem.js",
+      "source_location": "L12"
+    },
+    {
+      "id": "components_cartitem_cartitem_render",
+      "label": ".render()",
+      "file_type": "code",
+      "source_file": "js\\components\\cartItem.js",
+      "source_location": "L13"
+    },
+    {
+      "id": "js_components_modal_js",
+      "label": "modal.js",
+      "file_type": "code",
+      "source_file": "js\\components\\modal.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "components_modal_modal",
+      "label": "Modal",
+      "file_type": "code",
+      "source_file": "js\\components\\modal.js",
+      "source_location": "L5"
+    },
+    {
+      "id": "components_modal_modal_open",
+      "label": ".open()",
+      "file_type": "code",
+      "source_file": "js\\components\\modal.js",
+      "source_location": "L6"
+    },
+    {
+      "id": "components_modal_modal_alert",
+      "label": ".alert()",
+      "file_type": "code",
+      "source_file": "js\\components\\modal.js",
+      "source_location": "L55"
+    },
+    {
+      "id": "components_modal_modal_confirm",
+      "label": ".confirm()",
+      "file_type": "code",
+      "source_file": "js\\components\\modal.js",
+      "source_location": "L59"
+    },
+    {
+      "id": "js_components_navbar_js",
+      "label": "navbar.js",
+      "file_type": "code",
+      "source_file": "js\\components\\navbar.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "components_navbar_navbar",
+      "label": "Navbar",
+      "file_type": "code",
+      "source_file": "js\\components\\navbar.js",
+      "source_location": "L11"
+    },
+    {
+      "id": "components_navbar_navbar_render",
+      "label": ".render()",
+      "file_type": "code",
+      "source_file": "js\\components\\navbar.js",
+      "source_location": "L12"
+    },
+    {
+      "id": "components_navbar_navbar_attacheventlisteners",
+      "label": ".attachEventListeners()",
+      "file_type": "code",
+      "source_file": "js\\components\\navbar.js",
+      "source_location": "L53"
+    },
+    {
+      "id": "components_navbar_navbar_fetchsuggestions",
+      "label": ".fetchSuggestions()",
+      "file_type": "code",
+      "source_file": "js\\components\\navbar.js",
+      "source_location": "L112"
+    },
+    {
+      "id": "components_navbar_navbar_showsuggestions",
+      "label": ".showSuggestions()",
+      "file_type": "code",
+      "source_file": "js\\components\\navbar.js",
+      "source_location": "L129"
+    },
+    {
+      "id": "components_navbar_navbar_hidesuggestions",
+      "label": ".hideSuggestions()",
+      "file_type": "code",
+      "source_file": "js\\components\\navbar.js",
+      "source_location": "L164"
+    },
+    {
+      "id": "components_navbar_navbar_handlekeyboardnavigation",
+      "label": ".handleKeyboardNavigation()",
+      "file_type": "code",
+      "source_file": "js\\components\\navbar.js",
+      "source_location": "L170"
+    },
+    {
+      "id": "components_navbar_navbar_highlightsuggestion",
+      "label": ".highlightSuggestion()",
+      "file_type": "code",
+      "source_file": "js\\components\\navbar.js",
+      "source_location": "L211"
+    },
+    {
+      "id": "components_navbar_navbar_updatecartcount",
+      "label": ".updateCartCount()",
+      "file_type": "code",
+      "source_file": "js\\components\\navbar.js",
+      "source_location": "L229"
+    },
+    {
+      "id": "components_navbar_navbar_synccartfromserver",
+      "label": ".syncCartFromServer()",
+      "file_type": "code",
+      "source_file": "js\\components\\navbar.js",
+      "source_location": "L238"
+    },
+    {
+      "id": "js_components_productcard_js",
+      "label": "productCard.js",
+      "file_type": "code",
+      "source_file": "js\\components\\productCard.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "components_productcard_productcard",
+      "label": "ProductCard",
+      "file_type": "code",
+      "source_file": "js\\components\\productCard.js",
+      "source_location": "L10"
+    },
+    {
+      "id": "components_productcard_productcard_render",
+      "label": ".render()",
+      "file_type": "code",
+      "source_file": "js\\components\\productCard.js",
+      "source_location": "L11"
+    },
+    {
+      "id": "components_productcard_productcard_getcartquantity",
+      "label": ".getCartQuantity()",
+      "file_type": "code",
+      "source_file": "js\\components\\productCard.js",
+      "source_location": "L86"
+    },
+    {
+      "id": "components_productcard_productcard_renderhtml",
+      "label": ".renderHTML()",
+      "file_type": "code",
+      "source_file": "js\\components\\productCard.js",
+      "source_location": "L92"
+    },
+    {
+      "id": "components_productcard_productcard_handleaddtocart",
+      "label": ".handleAddToCart()",
+      "file_type": "code",
+      "source_file": "js\\components\\productCard.js",
+      "source_location": "L132"
+    },
+    {
+      "id": "components_productcard_productcard_updatecartquantityforproduct",
+      "label": ".updateCartQuantityForProduct()",
+      "file_type": "code",
+      "source_file": "js\\components\\productCard.js",
+      "source_location": "L168"
+    },
+    {
+      "id": "components_productcard_productcard_updatecartquantitybadge",
+      "label": ".updateCartQuantityBadge()",
+      "file_type": "code",
+      "source_file": "js\\components\\productCard.js",
+      "source_location": "L181"
+    },
+    {
+      "id": "js_pages_auth_js",
+      "label": "auth.js",
+      "file_type": "code",
+      "source_file": "js\\pages\\auth.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "pages_auth_authpage",
+      "label": "AuthPage",
+      "file_type": "code",
+      "source_file": "js\\pages\\auth.js",
+      "source_location": "L10"
+    },
+    {
+      "id": "pages_auth_authpage_renderlogin",
+      "label": ".renderLogin()",
+      "file_type": "code",
+      "source_file": "js\\pages\\auth.js",
+      "source_location": "L11"
+    },
+    {
+      "id": "pages_auth_authpage_rendersignup",
+      "label": ".renderSignup()",
+      "file_type": "code",
+      "source_file": "js\\pages\\auth.js",
+      "source_location": "L39"
+    },
+    {
+      "id": "pages_auth_authpage_handlelogin",
+      "label": ".handleLogin()",
+      "file_type": "code",
+      "source_file": "js\\pages\\auth.js",
+      "source_location": "L76"
+    },
+    {
+      "id": "pages_auth_authpage_handlesignup",
+      "label": ".handleSignup()",
+      "file_type": "code",
+      "source_file": "js\\pages\\auth.js",
+      "source_location": "L100"
+    },
+    {
+      "id": "js_pages_cart_js",
+      "label": "cart.js",
+      "file_type": "code",
+      "source_file": "js\\pages\\cart.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "pages_cart_cartpage",
+      "label": "CartPage",
+      "file_type": "code",
+      "source_file": "js\\pages\\cart.js",
+      "source_location": "L14"
+    },
+    {
+      "id": "pages_cart_cartpage_render",
+      "label": ".render()",
+      "file_type": "code",
+      "source_file": "js\\pages\\cart.js",
+      "source_location": "L15"
+    },
+    {
+      "id": "js_pages_checkout_js",
+      "label": "checkout.js",
+      "file_type": "code",
+      "source_file": "js\\pages\\checkout.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "pages_checkout_checkoutpage",
+      "label": "CheckoutPage",
+      "file_type": "code",
+      "source_file": "js\\pages\\checkout.js",
+      "source_location": "L14"
+    },
+    {
+      "id": "pages_checkout_checkoutpage_render",
+      "label": ".render()",
+      "file_type": "code",
+      "source_file": "js\\pages\\checkout.js",
+      "source_location": "L15"
+    },
+    {
+      "id": "pages_checkout_checkoutpage_handlecheckout",
+      "label": ".handleCheckout()",
+      "file_type": "code",
+      "source_file": "js\\pages\\checkout.js",
+      "source_location": "L102"
+    },
+    {
+      "id": "js_pages_orders_js",
+      "label": "orders.js",
+      "file_type": "code",
+      "source_file": "js\\pages\\orders.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "pages_orders_orderspage",
+      "label": "OrdersPage",
+      "file_type": "code",
+      "source_file": "js\\pages\\orders.js",
+      "source_location": "L11"
+    },
+    {
+      "id": "pages_orders_orderspage_render",
+      "label": ".render()",
+      "file_type": "code",
+      "source_file": "js\\pages\\orders.js",
+      "source_location": "L12"
+    },
+    {
+      "id": "pages_orders_orderspage_renderordercard",
+      "label": ".renderOrderCard()",
+      "file_type": "code",
+      "source_file": "js\\pages\\orders.js",
+      "source_location": "L61"
+    },
+    {
+      "id": "pages_orders_orderspage_showorderdetails",
+      "label": ".showOrderDetails()",
+      "file_type": "code",
+      "source_file": "js\\pages\\orders.js",
+      "source_location": "L111"
+    },
+    {
+      "id": "pages_orders_orderspage_cancelorder",
+      "label": ".cancelOrder()",
+      "file_type": "code",
+      "source_file": "js\\pages\\orders.js",
+      "source_location": "L129"
+    },
+    {
+      "id": "js_pages_paymentsuccess_js",
+      "label": "paymentSuccess.js",
+      "file_type": "code",
+      "source_file": "js\\pages\\paymentSuccess.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "pages_paymentsuccess_paymentsuccesspage",
+      "label": "PaymentSuccessPage",
+      "file_type": "code",
+      "source_file": "js\\pages\\paymentSuccess.js",
+      "source_location": "L8"
+    },
+    {
+      "id": "pages_paymentsuccess_paymentsuccesspage_render",
+      "label": ".render()",
+      "file_type": "code",
+      "source_file": "js\\pages\\paymentSuccess.js",
+      "source_location": "L9"
+    },
+    {
+      "id": "js_pages_products_js",
+      "label": "products.js",
+      "file_type": "code",
+      "source_file": "js\\pages\\products.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "pages_products_productspage",
+      "label": "ProductsPage",
+      "file_type": "code",
+      "source_file": "js\\pages\\products.js",
+      "source_location": "L10"
+    },
+    {
+      "id": "pages_products_productspage_render",
+      "label": ".render()",
+      "file_type": "code",
+      "source_file": "js\\pages\\products.js",
+      "source_location": "L32"
+    },
+    {
+      "id": "pages_products_productspage_renderproductsgrid",
+      "label": ".renderProductsGrid()",
+      "file_type": "code",
+      "source_file": "js\\pages\\products.js",
+      "source_location": "L62"
+    },
+    {
+      "id": "pages_products_productspage_rendersearchresults",
+      "label": ".renderSearchResults()",
+      "file_type": "code",
+      "source_file": "js\\pages\\products.js",
+      "source_location": "L71"
+    },
+    {
+      "id": "pages_products_productspage_renderproductswithcategories",
+      "label": ".renderProductsWithCategories()",
+      "file_type": "code",
+      "source_file": "js\\pages\\products.js",
+      "source_location": "L136"
+    },
+    {
+      "id": "pages_products_productspage_rendercategorydropdown",
+      "label": ".renderCategoryDropdown()",
+      "file_type": "code",
+      "source_file": "js\\pages\\products.js",
+      "source_location": "L156"
+    },
+    {
+      "id": "pages_products_productspage_renderallproductssection",
+      "label": ".renderAllProductsSection()",
+      "file_type": "code",
+      "source_file": "js\\pages\\products.js",
+      "source_location": "L192"
+    },
+    {
+      "id": "pages_products_productspage_rendercategorysections",
+      "label": ".renderCategorySections()",
+      "file_type": "code",
+      "source_file": "js\\pages\\products.js",
+      "source_location": "L206"
+    },
+    {
+      "id": "pages_products_productspage_groupproductsbycategory",
+      "label": ".groupProductsByCategory()",
+      "file_type": "code",
+      "source_file": "js\\pages\\products.js",
+      "source_location": "L233"
+    },
+    {
+      "id": "pages_products_productspage_setupcategorydropdownlisteners",
+      "label": ".setupCategoryDropdownListeners()",
+      "file_type": "code",
+      "source_file": "js\\pages\\products.js",
+      "source_location": "L248"
+    },
+    {
+      "id": "pages_products_productspage_setupproductcardlisteners",
+      "label": ".setupProductCardListeners()",
+      "file_type": "code",
+      "source_file": "js\\pages\\products.js",
+      "source_location": "L330"
+    },
+    {
+      "id": "pages_products_productspage_findproductbyid",
+      "label": ".findProductById()",
+      "file_type": "code",
+      "source_file": "js\\pages\\products.js",
+      "source_location": "L347"
+    },
+    {
+      "id": "pages_products_productspage_getpaginatedproducts",
+      "label": ".getPaginatedProducts()",
+      "file_type": "code",
+      "source_file": "js\\pages\\products.js",
+      "source_location": "L351"
+    },
+    {
+      "id": "pages_products_productspage_renderpaginationcontrols",
+      "label": ".renderPaginationControls()",
+      "file_type": "code",
+      "source_file": "js\\pages\\products.js",
+      "source_location": "L357"
+    },
+    {
+      "id": "pages_products_productspage_setuppaginationlisteners",
+      "label": ".setupPaginationListeners()",
+      "file_type": "code",
+      "source_file": "js\\pages\\products.js",
+      "source_location": "L390"
+    },
+    {
+      "id": "pages_products_productspage_renderpaginatedcategory",
+      "label": ".renderPaginatedCategory()",
+      "file_type": "code",
+      "source_file": "js\\pages\\products.js",
+      "source_location": "L412"
+    },
+    {
+      "id": "js_utils_helpers_js",
+      "label": "helpers.js",
+      "file_type": "code",
+      "source_file": "js\\utils\\helpers.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "utils_helpers_helpers",
+      "label": "Helpers",
+      "file_type": "code",
+      "source_file": "js\\utils\\helpers.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "utils_helpers_helpers_formatcurrency",
+      "label": ".formatCurrency()",
+      "file_type": "code",
+      "source_file": "js\\utils\\helpers.js",
+      "source_location": "L2"
+    },
+    {
+      "id": "utils_helpers_helpers_formatdate",
+      "label": ".formatDate()",
+      "file_type": "code",
+      "source_file": "js\\utils\\helpers.js",
+      "source_location": "L9"
+    },
+    {
+      "id": "utils_helpers_helpers_shownotification",
+      "label": ".showNotification()",
+      "file_type": "code",
+      "source_file": "js\\utils\\helpers.js",
+      "source_location": "L17"
+    },
+    {
+      "id": "utils_helpers_helpers_showerror",
+      "label": ".showError()",
+      "file_type": "code",
+      "source_file": "js\\utils\\helpers.js",
+      "source_location": "L34"
+    },
+    {
+      "id": "utils_helpers_helpers_showsuccess",
+      "label": ".showSuccess()",
+      "file_type": "code",
+      "source_file": "js\\utils\\helpers.js",
+      "source_location": "L38"
+    },
+    {
+      "id": "utils_helpers_helpers_showloading",
+      "label": ".showLoading()",
+      "file_type": "code",
+      "source_file": "js\\utils\\helpers.js",
+      "source_location": "L42"
+    },
+    {
+      "id": "utils_helpers_helpers_generateorderid",
+      "label": ".generateOrderId()",
+      "file_type": "code",
+      "source_file": "js\\utils\\helpers.js",
+      "source_location": "L46"
+    },
+    {
+      "id": "utils_helpers_helpers_delay",
+      "label": ".delay()",
+      "file_type": "code",
+      "source_file": "js\\utils\\helpers.js",
+      "source_location": "L50"
+    },
+    {
+      "id": "utils_helpers_helpers_deepclone",
+      "label": ".deepClone()",
+      "file_type": "code",
+      "source_file": "js\\utils\\helpers.js",
+      "source_location": "L54"
+    },
+    {
+      "id": "utils_helpers_helpers_handleapierror",
+      "label": ".handleApiError()",
+      "file_type": "code",
+      "source_file": "js\\utils\\helpers.js",
+      "source_location": "L59"
+    },
+    {
+      "id": "js_utils_storage_js",
+      "label": "storage.js",
+      "file_type": "code",
+      "source_file": "js\\utils\\storage.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "utils_storage_storageservice",
+      "label": "StorageService",
+      "file_type": "code",
+      "source_file": "js\\utils\\storage.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "utils_storage_storageservice_settoken",
+      "label": ".setToken()",
+      "file_type": "code",
+      "source_file": "js\\utils\\storage.js",
+      "source_location": "L2"
+    },
+    {
+      "id": "utils_storage_storageservice_gettoken",
+      "label": ".getToken()",
+      "file_type": "code",
+      "source_file": "js\\utils\\storage.js",
+      "source_location": "L6"
+    },
+    {
+      "id": "utils_storage_storageservice_removetoken",
+      "label": ".removeToken()",
+      "file_type": "code",
+      "source_file": "js\\utils\\storage.js",
+      "source_location": "L10"
+    },
+    {
+      "id": "utils_storage_storageservice_setuser",
+      "label": ".setUser()",
+      "file_type": "code",
+      "source_file": "js\\utils\\storage.js",
+      "source_location": "L14"
+    },
+    {
+      "id": "utils_storage_storageservice_getuser",
+      "label": ".getUser()",
+      "file_type": "code",
+      "source_file": "js\\utils\\storage.js",
+      "source_location": "L18"
+    },
+    {
+      "id": "utils_storage_storageservice_removeuser",
+      "label": ".removeUser()",
+      "file_type": "code",
+      "source_file": "js\\utils\\storage.js",
+      "source_location": "L23"
+    },
+    {
+      "id": "utils_storage_storageservice_setcart",
+      "label": ".setCart()",
+      "file_type": "code",
+      "source_file": "js\\utils\\storage.js",
+      "source_location": "L27"
+    },
+    {
+      "id": "utils_storage_storageservice_getcart",
+      "label": ".getCart()",
+      "file_type": "code",
+      "source_file": "js\\utils\\storage.js",
+      "source_location": "L31"
+    },
+    {
+      "id": "utils_storage_storageservice_addtocart",
+      "label": ".addToCart()",
+      "file_type": "code",
+      "source_file": "js\\utils\\storage.js",
+      "source_location": "L36"
+    },
+    {
+      "id": "utils_storage_storageservice_removefromcart",
+      "label": ".removeFromCart()",
+      "file_type": "code",
+      "source_file": "js\\utils\\storage.js",
+      "source_location": "L50"
+    },
+    {
+      "id": "utils_storage_storageservice_updatecartitem",
+      "label": ".updateCartItem()",
+      "file_type": "code",
+      "source_file": "js\\utils\\storage.js",
+      "source_location": "L57"
+    },
+    {
+      "id": "utils_storage_storageservice_clearcart",
+      "label": ".clearCart()",
+      "file_type": "code",
+      "source_file": "js\\utils\\storage.js",
+      "source_location": "L72"
+    },
+    {
+      "id": "utils_storage_storageservice_isloggedin",
+      "label": ".isLoggedIn()",
+      "file_type": "code",
+      "source_file": "js\\utils\\storage.js",
+      "source_location": "L76"
+    },
+    {
+      "id": "utils_storage_storageservice_logout",
+      "label": ".logout()",
+      "file_type": "code",
+      "source_file": "js\\utils\\storage.js",
+      "source_location": "L82"
+    },
+    {
+      "id": "js_utils_validators_js",
+      "label": "validators.js",
+      "file_type": "code",
+      "source_file": "js\\utils\\validators.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "utils_validators_validators",
+      "label": "Validators",
+      "file_type": "code",
+      "source_file": "js\\utils\\validators.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "utils_validators_validators_isvalidemail",
+      "label": ".isValidEmail()",
+      "file_type": "code",
+      "source_file": "js\\utils\\validators.js",
+      "source_location": "L2"
+    },
+    {
+      "id": "utils_validators_validators_isvalidpassword",
+      "label": ".isValidPassword()",
+      "file_type": "code",
+      "source_file": "js\\utils\\validators.js",
+      "source_location": "L7"
+    },
+    {
+      "id": "utils_validators_validators_isvalidname",
+      "label": ".isValidName()",
+      "file_type": "code",
+      "source_file": "js\\utils\\validators.js",
+      "source_location": "L13"
+    },
+    {
+      "id": "utils_validators_validators_isvalidphonenumber",
+      "label": ".isValidPhoneNumber()",
+      "file_type": "code",
+      "source_file": "js\\utils\\validators.js",
+      "source_location": "L17"
+    },
+    {
+      "id": "utils_validators_validators_validatesignupform",
+      "label": ".validateSignupForm()",
+      "file_type": "code",
+      "source_file": "js\\utils\\validators.js",
+      "source_location": "L22"
+    },
+    {
+      "id": "utils_validators_validators_validateloginform",
+      "label": ".validateLoginForm()",
+      "file_type": "code",
+      "source_file": "js\\utils\\validators.js",
+      "source_location": "L44"
+    },
+    {
+      "id": "utils_validators_validators_validatecheckoutform",
+      "label": ".validateCheckoutForm()",
+      "file_type": "code",
+      "source_file": "js\\utils\\validators.js",
+      "source_location": "L58"
+    }
+  ],
+  "edges": [
+    {
+      "source": "js_app_js",
+      "target": "d_capstone_frontend_js_config_ts",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\app.js",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "js_app_js",
+      "target": "d_capstone_frontend_js_api_authservice_ts",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\app.js",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "js_app_js",
+      "target": "d_capstone_frontend_js_components_navbar_ts",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\app.js",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "js_app_js",
+      "target": "d_capstone_frontend_js_pages_auth_ts",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\app.js",
+      "source_location": "L8",
+      "weight": 1.0
+    },
+    {
+      "source": "js_app_js",
+      "target": "d_capstone_frontend_js_pages_products_ts",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\app.js",
+      "source_location": "L9",
+      "weight": 1.0
+    },
+    {
+      "source": "js_app_js",
+      "target": "d_capstone_frontend_js_pages_cart_ts",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\app.js",
+      "source_location": "L10",
+      "weight": 1.0
+    },
+    {
+      "source": "js_app_js",
+      "target": "d_capstone_frontend_js_pages_checkout_ts",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\app.js",
+      "source_location": "L11",
+      "weight": 1.0
+    },
+    {
+      "source": "js_app_js",
+      "target": "d_capstone_frontend_js_pages_orders_ts",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\app.js",
+      "source_location": "L12",
+      "weight": 1.0
+    },
+    {
+      "source": "js_app_js",
+      "target": "d_capstone_frontend_js_pages_paymentsuccess_ts",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\app.js",
+      "source_location": "L13",
+      "weight": 1.0
+    },
+    {
+      "source": "js_app_js",
+      "target": "js_app_app",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\app.js",
+      "source_location": "L15",
+      "weight": 1.0
+    },
+    {
+      "source": "js_app_app",
+      "target": "js_app_app_init",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\app.js",
+      "source_location": "L19",
+      "weight": 1.0
+    },
+    {
+      "source": "js_app_app",
+      "target": "js_app_app_setuprouting",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\app.js",
+      "source_location": "L25",
+      "weight": 1.0
+    },
+    {
+      "source": "js_app_app",
+      "target": "js_app_app_rendercurrenthash",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\app.js",
+      "source_location": "L31",
+      "weight": 1.0
+    },
+    {
+      "source": "js_app_app",
+      "target": "js_app_app_navigate",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\app.js",
+      "source_location": "L39",
+      "weight": 1.0
+    },
+    {
+      "source": "js_app_app",
+      "target": "js_app_app_renderhome",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\app.js",
+      "source_location": "L80",
+      "weight": 1.0
+    },
+    {
+      "source": "js_app_app_init",
+      "target": "js_app_app_setuprouting",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\app.js",
+      "source_location": "L21",
+      "weight": 1.0
+    },
+    {
+      "source": "js_app_app_init",
+      "target": "js_app_app_rendercurrenthash",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\app.js",
+      "source_location": "L22",
+      "weight": 1.0
+    },
+    {
+      "source": "js_app_app_rendercurrenthash",
+      "target": "js_app_app_navigate",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\app.js",
+      "source_location": "L36",
+      "weight": 1.0
+    },
+    {
+      "source": "js_app_app_navigate",
+      "target": "js_app_app_renderhome",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\app.js",
+      "source_location": "L52",
+      "weight": 1.0
+    },
+    {
+      "source": "js_config_js",
+      "target": "js_config_normalizebaseurl",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\config.js",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "js_config_js",
+      "target": "js_config_getapibaseurl",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\config.js",
+      "source_location": "L16",
+      "weight": 1.0
+    },
+    {
+      "source": "js_config_getapibaseurl",
+      "target": "js_config_normalizebaseurl",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\config.js",
+      "source_location": "L19",
+      "weight": 1.0
+    },
+    {
+      "source": "js_idletimeout_js",
+      "target": "js_idletimeout_logoutuser",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\idleTimeout.js",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "js_idletimeout_js",
+      "target": "js_idletimeout_resetidletimer",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\idleTimeout.js",
+      "source_location": "L18",
+      "weight": 1.0
+    },
+    {
+      "source": "js_idletimeout_js",
+      "target": "js_idletimeout_setupidletracking",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\idleTimeout.js",
+      "source_location": "L24",
+      "weight": 1.0
+    },
+    {
+      "source": "js_idletimeout_setupidletracking",
+      "target": "js_idletimeout_resetidletimer",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\idleTimeout.js",
+      "source_location": "L31",
+      "weight": 1.0
+    },
+    {
+      "source": "js_api_authservice_js",
+      "target": "d_capstone_frontend_js_config_ts",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\api\\authService.js",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "js_api_authservice_js",
+      "target": "d_capstone_frontend_js_utils_storage_ts",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\api\\authService.js",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "js_api_authservice_js",
+      "target": "api_authservice_authservice",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\api\\authService.js",
+      "source_location": "L8",
+      "weight": 1.0
+    },
+    {
+      "source": "api_authservice_authservice",
+      "target": "api_authservice_authservice_signup",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\api\\authService.js",
+      "source_location": "L9",
+      "weight": 1.0
+    },
+    {
+      "source": "api_authservice_authservice",
+      "target": "api_authservice_authservice_login",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\api\\authService.js",
+      "source_location": "L63",
+      "weight": 1.0
+    },
+    {
+      "source": "api_authservice_authservice",
+      "target": "api_authservice_authservice_validatetoken",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\api\\authService.js",
+      "source_location": "L116",
+      "weight": 1.0
+    },
+    {
+      "source": "api_authservice_authservice",
+      "target": "api_authservice_authservice_logout",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\api\\authService.js",
+      "source_location": "L139",
+      "weight": 1.0
+    },
+    {
+      "source": "api_authservice_authservice",
+      "target": "api_authservice_authservice_isloggedin",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\api\\authService.js",
+      "source_location": "L152",
+      "weight": 1.0
+    },
+    {
+      "source": "api_authservice_authservice",
+      "target": "api_authservice_authservice_getcurrentuser",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\api\\authService.js",
+      "source_location": "L156",
+      "weight": 1.0
+    },
+    {
+      "source": "js_api_cartservice_js",
+      "target": "d_capstone_frontend_js_config_ts",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\api\\cartService.js",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "js_api_cartservice_js",
+      "target": "api_cartservice_cartapiservice",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\api\\cartService.js",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "api_cartservice_cartapiservice",
+      "target": "api_cartservice_cartapiservice_getcart",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\api\\cartService.js",
+      "source_location": "L13",
+      "weight": 1.0
+    },
+    {
+      "source": "api_cartservice_cartapiservice",
+      "target": "api_cartservice_cartapiservice_addtocart",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\api\\cartService.js",
+      "source_location": "L35",
+      "weight": 1.0
+    },
+    {
+      "source": "api_cartservice_cartapiservice",
+      "target": "api_cartservice_cartapiservice_updateitem",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\api\\cartService.js",
+      "source_location": "L59",
+      "weight": 1.0
+    },
+    {
+      "source": "api_cartservice_cartapiservice",
+      "target": "api_cartservice_cartapiservice_removeitem",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\api\\cartService.js",
+      "source_location": "L80",
+      "weight": 1.0
+    },
+    {
+      "source": "api_cartservice_cartapiservice",
+      "target": "api_cartservice_cartapiservice_clearcart",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\api\\cartService.js",
+      "source_location": "L99",
+      "weight": 1.0
+    },
+    {
+      "source": "js_api_inventoryservice_js",
+      "target": "d_capstone_frontend_js_config_ts",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\api\\inventoryService.js",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "js_api_inventoryservice_js",
+      "target": "api_inventoryservice_inventoryservice",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\api\\inventoryService.js",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "api_inventoryservice_inventoryservice",
+      "target": "api_inventoryservice_inventoryservice_getinventory",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\api\\inventoryService.js",
+      "source_location": "L13",
+      "weight": 1.0
+    },
+    {
+      "source": "api_inventoryservice_inventoryservice",
+      "target": "api_inventoryservice_inventoryservice_getallinventory",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\api\\inventoryService.js",
+      "source_location": "L36",
+      "weight": 1.0
+    },
+    {
+      "source": "api_inventoryservice_inventoryservice",
+      "target": "api_inventoryservice_inventoryservice_updateinventory",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\api\\inventoryService.js",
+      "source_location": "L58",
+      "weight": 1.0
+    },
+    {
+      "source": "js_api_orderservice_js",
+      "target": "d_capstone_frontend_js_config_ts",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\api\\orderService.js",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "js_api_orderservice_js",
+      "target": "d_capstone_frontend_js_utils_storage_ts",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\api\\orderService.js",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "js_api_orderservice_js",
+      "target": "api_orderservice_orderservice",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\api\\orderService.js",
+      "source_location": "L8",
+      "weight": 1.0
+    },
+    {
+      "source": "api_orderservice_orderservice",
+      "target": "api_orderservice_orderservice_createorder",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\api\\orderService.js",
+      "source_location": "L9",
+      "weight": 1.0
+    },
+    {
+      "source": "api_orderservice_orderservice",
+      "target": "api_orderservice_orderservice_getorderbyid",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\api\\orderService.js",
+      "source_location": "L39",
+      "weight": 1.0
+    },
+    {
+      "source": "api_orderservice_orderservice",
+      "target": "api_orderservice_orderservice_getuserorders",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\api\\orderService.js",
+      "source_location": "L68",
+      "weight": 1.0
+    },
+    {
+      "source": "api_orderservice_orderservice",
+      "target": "api_orderservice_orderservice_prepareorderdata",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\api\\orderService.js",
+      "source_location": "L97",
+      "weight": 1.0
+    },
+    {
+      "source": "api_orderservice_orderservice",
+      "target": "api_orderservice_orderservice_calculatetotal",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\api\\orderService.js",
+      "source_location": "L113",
+      "weight": 1.0
+    },
+    {
+      "source": "api_orderservice_orderservice",
+      "target": "api_orderservice_orderservice_cancelorder",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\api\\orderService.js",
+      "source_location": "L117",
+      "weight": 1.0
+    },
+    {
+      "source": "api_orderservice_orderservice_prepareorderdata",
+      "target": "api_orderservice_orderservice_calculatetotal",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\api\\orderService.js",
+      "source_location": "L108",
+      "weight": 1.0
+    },
+    {
+      "source": "js_api_paymentservice_js",
+      "target": "d_capstone_frontend_js_config_ts",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\api\\paymentService.js",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "js_api_paymentservice_js",
+      "target": "d_capstone_frontend_js_utils_storage_ts",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\api\\paymentService.js",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "js_api_paymentservice_js",
+      "target": "api_paymentservice_paymentservice",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\api\\paymentService.js",
+      "source_location": "L8",
+      "weight": 1.0
+    },
+    {
+      "source": "api_paymentservice_paymentservice",
+      "target": "api_paymentservice_paymentservice_generatepaymentlink",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\api\\paymentService.js",
+      "source_location": "L9",
+      "weight": 1.0
+    },
+    {
+      "source": "api_paymentservice_paymentservice",
+      "target": "api_paymentservice_paymentservice_openpaymentgateway",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\api\\paymentService.js",
+      "source_location": "L48",
+      "weight": 1.0
+    },
+    {
+      "source": "js_api_productservice_js",
+      "target": "d_capstone_frontend_js_config_ts",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\api\\productService.js",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "js_api_productservice_js",
+      "target": "d_capstone_frontend_js_utils_storage_ts",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\api\\productService.js",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "js_api_productservice_js",
+      "target": "api_productservice_productservice",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\api\\productService.js",
+      "source_location": "L8",
+      "weight": 1.0
+    },
+    {
+      "source": "api_productservice_productservice",
+      "target": "api_productservice_productservice_getallproducts",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\api\\productService.js",
+      "source_location": "L9",
+      "weight": 1.0
+    },
+    {
+      "source": "api_productservice_productservice",
+      "target": "api_productservice_productservice_getproductbyid",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\api\\productService.js",
+      "source_location": "L37",
+      "weight": 1.0
+    },
+    {
+      "source": "api_productservice_productservice",
+      "target": "api_productservice_productservice_createproduct",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\api\\productService.js",
+      "source_location": "L65",
+      "weight": 1.0
+    },
+    {
+      "source": "api_productservice_productservice",
+      "target": "api_productservice_productservice_updateproduct",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\api\\productService.js",
+      "source_location": "L94",
+      "weight": 1.0
+    },
+    {
+      "source": "api_productservice_productservice",
+      "target": "api_productservice_productservice_deleteproduct",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\api\\productService.js",
+      "source_location": "L123",
+      "weight": 1.0
+    },
+    {
+      "source": "js_api_searchservice_js",
+      "target": "d_capstone_frontend_js_config_ts",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\api\\searchService.js",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "js_api_searchservice_js",
+      "target": "api_searchservice_searchservice",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\api\\searchService.js",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "api_searchservice_searchservice",
+      "target": "api_searchservice_searchservice_searchproducts",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\api\\searchService.js",
+      "source_location": "L8",
+      "weight": 1.0
+    },
+    {
+      "source": "api_searchservice_searchservice",
+      "target": "api_searchservice_searchservice_getsearchsuggestions",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\api\\searchService.js",
+      "source_location": "L48",
+      "weight": 1.0
+    },
+    {
+      "source": "api_searchservice_searchservice",
+      "target": "api_searchservice_searchservice_searchbycategory",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\api\\searchService.js",
+      "source_location": "L93",
+      "weight": 1.0
+    },
+    {
+      "source": "api_searchservice_searchservice",
+      "target": "api_searchservice_searchservice_searchbyprice",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\api\\searchService.js",
+      "source_location": "L98",
+      "weight": 1.0
+    },
+    {
+      "source": "api_searchservice_searchservice_getsearchsuggestions",
+      "target": "api_searchservice_searchservice_searchproducts",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\api\\searchService.js",
+      "source_location": "L66",
+      "weight": 1.0
+    },
+    {
+      "source": "api_searchservice_searchservice_searchbycategory",
+      "target": "api_searchservice_searchservice_searchproducts",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\api\\searchService.js",
+      "source_location": "L95",
+      "weight": 1.0
+    },
+    {
+      "source": "api_searchservice_searchservice_searchbyprice",
+      "target": "api_searchservice_searchservice_searchproducts",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\api\\searchService.js",
+      "source_location": "L100",
+      "weight": 1.0
+    },
+    {
+      "source": "js_components_cartitem_js",
+      "target": "d_capstone_frontend_js_utils_storage_ts",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\components\\cartItem.js",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "js_components_cartitem_js",
+      "target": "d_capstone_frontend_js_utils_helpers_ts",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\components\\cartItem.js",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "js_components_cartitem_js",
+      "target": "d_capstone_frontend_js_components_navbar_ts",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\components\\cartItem.js",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "js_components_cartitem_js",
+      "target": "d_capstone_frontend_js_pages_cart_ts",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\components\\cartItem.js",
+      "source_location": "L8",
+      "weight": 1.0
+    },
+    {
+      "source": "js_components_cartitem_js",
+      "target": "d_capstone_frontend_js_api_cartservice_ts",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\components\\cartItem.js",
+      "source_location": "L9",
+      "weight": 1.0
+    },
+    {
+      "source": "js_components_cartitem_js",
+      "target": "d_capstone_frontend_js_api_authservice_ts",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\components\\cartItem.js",
+      "source_location": "L10",
+      "weight": 1.0
+    },
+    {
+      "source": "js_components_cartitem_js",
+      "target": "components_cartitem_cartitem",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\components\\cartItem.js",
+      "source_location": "L12",
+      "weight": 1.0
+    },
+    {
+      "source": "components_cartitem_cartitem",
+      "target": "components_cartitem_cartitem_render",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\components\\cartItem.js",
+      "source_location": "L13",
+      "weight": 1.0
+    },
+    {
+      "source": "js_components_modal_js",
+      "target": "components_modal_modal",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\components\\modal.js",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "components_modal_modal",
+      "target": "components_modal_modal_open",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\components\\modal.js",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "components_modal_modal",
+      "target": "components_modal_modal_alert",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\components\\modal.js",
+      "source_location": "L55",
+      "weight": 1.0
+    },
+    {
+      "source": "components_modal_modal",
+      "target": "components_modal_modal_confirm",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\components\\modal.js",
+      "source_location": "L59",
+      "weight": 1.0
+    },
+    {
+      "source": "components_modal_modal_alert",
+      "target": "components_modal_modal_open",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\components\\modal.js",
+      "source_location": "L56",
+      "weight": 1.0
+    },
+    {
+      "source": "components_modal_modal_confirm",
+      "target": "components_modal_modal_open",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\components\\modal.js",
+      "source_location": "L60",
+      "weight": 1.0
+    },
+    {
+      "source": "js_components_navbar_js",
+      "target": "d_capstone_frontend_js_config_ts",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\components\\navbar.js",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "js_components_navbar_js",
+      "target": "d_capstone_frontend_js_api_authservice_ts",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\components\\navbar.js",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "js_components_navbar_js",
+      "target": "d_capstone_frontend_js_utils_storage_ts",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\components\\navbar.js",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "js_components_navbar_js",
+      "target": "d_capstone_frontend_js_utils_helpers_ts",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\components\\navbar.js",
+      "source_location": "L8",
+      "weight": 1.0
+    },
+    {
+      "source": "js_components_navbar_js",
+      "target": "d_capstone_frontend_js_api_searchservice_ts",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\components\\navbar.js",
+      "source_location": "L9",
+      "weight": 1.0
+    },
+    {
+      "source": "js_components_navbar_js",
+      "target": "components_navbar_navbar",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\components\\navbar.js",
+      "source_location": "L11",
+      "weight": 1.0
+    },
+    {
+      "source": "components_navbar_navbar",
+      "target": "components_navbar_navbar_render",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\components\\navbar.js",
+      "source_location": "L12",
+      "weight": 1.0
+    },
+    {
+      "source": "components_navbar_navbar",
+      "target": "components_navbar_navbar_attacheventlisteners",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\components\\navbar.js",
+      "source_location": "L53",
+      "weight": 1.0
+    },
+    {
+      "source": "components_navbar_navbar",
+      "target": "components_navbar_navbar_fetchsuggestions",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\components\\navbar.js",
+      "source_location": "L112",
+      "weight": 1.0
+    },
+    {
+      "source": "components_navbar_navbar",
+      "target": "components_navbar_navbar_showsuggestions",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\components\\navbar.js",
+      "source_location": "L129",
+      "weight": 1.0
+    },
+    {
+      "source": "components_navbar_navbar",
+      "target": "components_navbar_navbar_hidesuggestions",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\components\\navbar.js",
+      "source_location": "L164",
+      "weight": 1.0
+    },
+    {
+      "source": "components_navbar_navbar",
+      "target": "components_navbar_navbar_handlekeyboardnavigation",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\components\\navbar.js",
+      "source_location": "L170",
+      "weight": 1.0
+    },
+    {
+      "source": "components_navbar_navbar",
+      "target": "components_navbar_navbar_highlightsuggestion",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\components\\navbar.js",
+      "source_location": "L211",
+      "weight": 1.0
+    },
+    {
+      "source": "components_navbar_navbar",
+      "target": "components_navbar_navbar_updatecartcount",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\components\\navbar.js",
+      "source_location": "L229",
+      "weight": 1.0
+    },
+    {
+      "source": "components_navbar_navbar",
+      "target": "components_navbar_navbar_synccartfromserver",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\components\\navbar.js",
+      "source_location": "L238",
+      "weight": 1.0
+    },
+    {
+      "source": "components_navbar_navbar_render",
+      "target": "components_navbar_navbar_attacheventlisteners",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\components\\navbar.js",
+      "source_location": "L50",
+      "weight": 1.0
+    },
+    {
+      "source": "components_navbar_navbar_fetchsuggestions",
+      "target": "components_navbar_navbar_showsuggestions",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\components\\navbar.js",
+      "source_location": "L119",
+      "weight": 1.0
+    },
+    {
+      "source": "components_navbar_navbar_fetchsuggestions",
+      "target": "components_navbar_navbar_hidesuggestions",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\components\\navbar.js",
+      "source_location": "L121",
+      "weight": 1.0
+    },
+    {
+      "source": "components_navbar_navbar_handlekeyboardnavigation",
+      "target": "components_navbar_navbar_highlightsuggestion",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\components\\navbar.js",
+      "source_location": "L185",
+      "weight": 1.0
+    },
+    {
+      "source": "components_navbar_navbar_handlekeyboardnavigation",
+      "target": "components_navbar_navbar_hidesuggestions",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\components\\navbar.js",
+      "source_location": "L197",
+      "weight": 1.0
+    },
+    {
+      "source": "components_navbar_navbar_synccartfromserver",
+      "target": "components_navbar_navbar_updatecartcount",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\components\\navbar.js",
+      "source_location": "L257",
+      "weight": 1.0
+    },
+    {
+      "source": "js_components_productcard_js",
+      "target": "d_capstone_frontend_js_utils_storage_ts",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\components\\productCard.js",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "js_components_productcard_js",
+      "target": "d_capstone_frontend_js_api_cartservice_ts",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\components\\productCard.js",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "js_components_productcard_js",
+      "target": "d_capstone_frontend_js_utils_helpers_ts",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\components\\productCard.js",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "js_components_productcard_js",
+      "target": "d_capstone_frontend_js_components_navbar_ts",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\components\\productCard.js",
+      "source_location": "L8",
+      "weight": 1.0
+    },
+    {
+      "source": "js_components_productcard_js",
+      "target": "components_productcard_productcard",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\components\\productCard.js",
+      "source_location": "L10",
+      "weight": 1.0
+    },
+    {
+      "source": "components_productcard_productcard",
+      "target": "components_productcard_productcard_render",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\components\\productCard.js",
+      "source_location": "L11",
+      "weight": 1.0
+    },
+    {
+      "source": "components_productcard_productcard",
+      "target": "components_productcard_productcard_getcartquantity",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\components\\productCard.js",
+      "source_location": "L86",
+      "weight": 1.0
+    },
+    {
+      "source": "components_productcard_productcard",
+      "target": "components_productcard_productcard_renderhtml",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\components\\productCard.js",
+      "source_location": "L92",
+      "weight": 1.0
+    },
+    {
+      "source": "components_productcard_productcard",
+      "target": "components_productcard_productcard_handleaddtocart",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\components\\productCard.js",
+      "source_location": "L132",
+      "weight": 1.0
+    },
+    {
+      "source": "components_productcard_productcard",
+      "target": "components_productcard_productcard_updatecartquantityforproduct",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\components\\productCard.js",
+      "source_location": "L168",
+      "weight": 1.0
+    },
+    {
+      "source": "components_productcard_productcard",
+      "target": "components_productcard_productcard_updatecartquantitybadge",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\components\\productCard.js",
+      "source_location": "L181",
+      "weight": 1.0
+    },
+    {
+      "source": "components_productcard_productcard_render",
+      "target": "components_productcard_productcard_getcartquantity",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\components\\productCard.js",
+      "source_location": "L26",
+      "weight": 1.0
+    },
+    {
+      "source": "components_productcard_productcard_renderhtml",
+      "target": "components_productcard_productcard_getcartquantity",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\components\\productCard.js",
+      "source_location": "L104",
+      "weight": 1.0
+    },
+    {
+      "source": "components_productcard_productcard_handleaddtocart",
+      "target": "components_productcard_productcard_updatecartquantityforproduct",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\components\\productCard.js",
+      "source_location": "L150",
+      "weight": 1.0
+    },
+    {
+      "source": "components_productcard_productcard_updatecartquantitybadge",
+      "target": "components_productcard_productcard_getcartquantity",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\components\\productCard.js",
+      "source_location": "L183",
+      "weight": 1.0
+    },
+    {
+      "source": "js_pages_auth_js",
+      "target": "d_capstone_frontend_js_api_authservice_ts",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\pages\\auth.js",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "js_pages_auth_js",
+      "target": "d_capstone_frontend_js_utils_validators_ts",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\pages\\auth.js",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "js_pages_auth_js",
+      "target": "d_capstone_frontend_js_utils_helpers_ts",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\pages\\auth.js",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "js_pages_auth_js",
+      "target": "d_capstone_frontend_js_config_ts",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\pages\\auth.js",
+      "source_location": "L8",
+      "weight": 1.0
+    },
+    {
+      "source": "js_pages_auth_js",
+      "target": "pages_auth_authpage",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\pages\\auth.js",
+      "source_location": "L10",
+      "weight": 1.0
+    },
+    {
+      "source": "pages_auth_authpage",
+      "target": "pages_auth_authpage_renderlogin",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\pages\\auth.js",
+      "source_location": "L11",
+      "weight": 1.0
+    },
+    {
+      "source": "pages_auth_authpage",
+      "target": "pages_auth_authpage_rendersignup",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\pages\\auth.js",
+      "source_location": "L39",
+      "weight": 1.0
+    },
+    {
+      "source": "pages_auth_authpage",
+      "target": "pages_auth_authpage_handlelogin",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\pages\\auth.js",
+      "source_location": "L76",
+      "weight": 1.0
+    },
+    {
+      "source": "pages_auth_authpage",
+      "target": "pages_auth_authpage_handlesignup",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\pages\\auth.js",
+      "source_location": "L100",
+      "weight": 1.0
+    },
+    {
+      "source": "js_pages_cart_js",
+      "target": "d_capstone_frontend_js_utils_storage_ts",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\pages\\cart.js",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "js_pages_cart_js",
+      "target": "d_capstone_frontend_js_api_cartservice_ts",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\pages\\cart.js",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "js_pages_cart_js",
+      "target": "d_capstone_frontend_js_components_cartitem_ts",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\pages\\cart.js",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "js_pages_cart_js",
+      "target": "d_capstone_frontend_js_api_orderservice_ts",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\pages\\cart.js",
+      "source_location": "L8",
+      "weight": 1.0
+    },
+    {
+      "source": "js_pages_cart_js",
+      "target": "d_capstone_frontend_js_utils_helpers_ts",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\pages\\cart.js",
+      "source_location": "L9",
+      "weight": 1.0
+    },
+    {
+      "source": "js_pages_cart_js",
+      "target": "d_capstone_frontend_js_api_authservice_ts",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\pages\\cart.js",
+      "source_location": "L10",
+      "weight": 1.0
+    },
+    {
+      "source": "js_pages_cart_js",
+      "target": "d_capstone_frontend_js_components_navbar_ts",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\pages\\cart.js",
+      "source_location": "L11",
+      "weight": 1.0
+    },
+    {
+      "source": "js_pages_cart_js",
+      "target": "d_capstone_frontend_js_config_ts",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\pages\\cart.js",
+      "source_location": "L12",
+      "weight": 1.0
+    },
+    {
+      "source": "js_pages_cart_js",
+      "target": "pages_cart_cartpage",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\pages\\cart.js",
+      "source_location": "L14",
+      "weight": 1.0
+    },
+    {
+      "source": "pages_cart_cartpage",
+      "target": "pages_cart_cartpage_render",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\pages\\cart.js",
+      "source_location": "L15",
+      "weight": 1.0
+    },
+    {
+      "source": "js_pages_checkout_js",
+      "target": "d_capstone_frontend_js_utils_storage_ts",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\pages\\checkout.js",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "js_pages_checkout_js",
+      "target": "d_capstone_frontend_js_api_cartservice_ts",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\pages\\checkout.js",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "js_pages_checkout_js",
+      "target": "d_capstone_frontend_js_api_orderservice_ts",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\pages\\checkout.js",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "js_pages_checkout_js",
+      "target": "d_capstone_frontend_js_api_paymentservice_ts",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\pages\\checkout.js",
+      "source_location": "L8",
+      "weight": 1.0
+    },
+    {
+      "source": "js_pages_checkout_js",
+      "target": "d_capstone_frontend_js_utils_validators_ts",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\pages\\checkout.js",
+      "source_location": "L9",
+      "weight": 1.0
+    },
+    {
+      "source": "js_pages_checkout_js",
+      "target": "d_capstone_frontend_js_utils_helpers_ts",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\pages\\checkout.js",
+      "source_location": "L10",
+      "weight": 1.0
+    },
+    {
+      "source": "js_pages_checkout_js",
+      "target": "d_capstone_frontend_js_components_navbar_ts",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\pages\\checkout.js",
+      "source_location": "L11",
+      "weight": 1.0
+    },
+    {
+      "source": "js_pages_checkout_js",
+      "target": "d_capstone_frontend_js_config_ts",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\pages\\checkout.js",
+      "source_location": "L12",
+      "weight": 1.0
+    },
+    {
+      "source": "js_pages_checkout_js",
+      "target": "pages_checkout_checkoutpage",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\pages\\checkout.js",
+      "source_location": "L14",
+      "weight": 1.0
+    },
+    {
+      "source": "pages_checkout_checkoutpage",
+      "target": "pages_checkout_checkoutpage_render",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\pages\\checkout.js",
+      "source_location": "L15",
+      "weight": 1.0
+    },
+    {
+      "source": "pages_checkout_checkoutpage",
+      "target": "pages_checkout_checkoutpage_handlecheckout",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\pages\\checkout.js",
+      "source_location": "L102",
+      "weight": 1.0
+    },
+    {
+      "source": "js_pages_orders_js",
+      "target": "d_capstone_frontend_js_api_orderservice_ts",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\pages\\orders.js",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "js_pages_orders_js",
+      "target": "d_capstone_frontend_js_api_authservice_ts",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\pages\\orders.js",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "js_pages_orders_js",
+      "target": "d_capstone_frontend_js_components_modal_ts",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\pages\\orders.js",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "js_pages_orders_js",
+      "target": "d_capstone_frontend_js_utils_helpers_ts",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\pages\\orders.js",
+      "source_location": "L8",
+      "weight": 1.0
+    },
+    {
+      "source": "js_pages_orders_js",
+      "target": "d_capstone_frontend_js_config_ts",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\pages\\orders.js",
+      "source_location": "L9",
+      "weight": 1.0
+    },
+    {
+      "source": "js_pages_orders_js",
+      "target": "pages_orders_orderspage",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\pages\\orders.js",
+      "source_location": "L11",
+      "weight": 1.0
+    },
+    {
+      "source": "pages_orders_orderspage",
+      "target": "pages_orders_orderspage_render",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\pages\\orders.js",
+      "source_location": "L12",
+      "weight": 1.0
+    },
+    {
+      "source": "pages_orders_orderspage",
+      "target": "pages_orders_orderspage_renderordercard",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\pages\\orders.js",
+      "source_location": "L61",
+      "weight": 1.0
+    },
+    {
+      "source": "pages_orders_orderspage",
+      "target": "pages_orders_orderspage_showorderdetails",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\pages\\orders.js",
+      "source_location": "L111",
+      "weight": 1.0
+    },
+    {
+      "source": "pages_orders_orderspage",
+      "target": "pages_orders_orderspage_cancelorder",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\pages\\orders.js",
+      "source_location": "L129",
+      "weight": 1.0
+    },
+    {
+      "source": "pages_orders_orderspage_cancelorder",
+      "target": "pages_orders_orderspage_render",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\pages\\orders.js",
+      "source_location": "L141",
+      "weight": 1.0
+    },
+    {
+      "source": "js_pages_paymentsuccess_js",
+      "target": "d_capstone_frontend_js_config_ts",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\pages\\paymentSuccess.js",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "js_pages_paymentsuccess_js",
+      "target": "d_capstone_frontend_js_utils_helpers_ts",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\pages\\paymentSuccess.js",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "js_pages_paymentsuccess_js",
+      "target": "pages_paymentsuccess_paymentsuccesspage",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\pages\\paymentSuccess.js",
+      "source_location": "L8",
+      "weight": 1.0
+    },
+    {
+      "source": "pages_paymentsuccess_paymentsuccesspage",
+      "target": "pages_paymentsuccess_paymentsuccesspage_render",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\pages\\paymentSuccess.js",
+      "source_location": "L9",
+      "weight": 1.0
+    },
+    {
+      "source": "js_pages_products_js",
+      "target": "d_capstone_frontend_js_api_productservice_ts",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\pages\\products.js",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "js_pages_products_js",
+      "target": "d_capstone_frontend_js_api_searchservice_ts",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\pages\\products.js",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "js_pages_products_js",
+      "target": "d_capstone_frontend_js_components_productcard_ts",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\pages\\products.js",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "js_pages_products_js",
+      "target": "d_capstone_frontend_js_utils_helpers_ts",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\pages\\products.js",
+      "source_location": "L8",
+      "weight": 1.0
+    },
+    {
+      "source": "js_pages_products_js",
+      "target": "pages_products_productspage",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\pages\\products.js",
+      "source_location": "L10",
+      "weight": 1.0
+    },
+    {
+      "source": "pages_products_productspage",
+      "target": "pages_products_productspage_render",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\pages\\products.js",
+      "source_location": "L32",
+      "weight": 1.0
+    },
+    {
+      "source": "pages_products_productspage",
+      "target": "pages_products_productspage_renderproductsgrid",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\pages\\products.js",
+      "source_location": "L62",
+      "weight": 1.0
+    },
+    {
+      "source": "pages_products_productspage",
+      "target": "pages_products_productspage_rendersearchresults",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\pages\\products.js",
+      "source_location": "L71",
+      "weight": 1.0
+    },
+    {
+      "source": "pages_products_productspage",
+      "target": "pages_products_productspage_renderproductswithcategories",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\pages\\products.js",
+      "source_location": "L136",
+      "weight": 1.0
+    },
+    {
+      "source": "pages_products_productspage",
+      "target": "pages_products_productspage_rendercategorydropdown",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\pages\\products.js",
+      "source_location": "L156",
+      "weight": 1.0
+    },
+    {
+      "source": "pages_products_productspage",
+      "target": "pages_products_productspage_renderallproductssection",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\pages\\products.js",
+      "source_location": "L192",
+      "weight": 1.0
+    },
+    {
+      "source": "pages_products_productspage",
+      "target": "pages_products_productspage_rendercategorysections",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\pages\\products.js",
+      "source_location": "L206",
+      "weight": 1.0
+    },
+    {
+      "source": "pages_products_productspage",
+      "target": "pages_products_productspage_groupproductsbycategory",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\pages\\products.js",
+      "source_location": "L233",
+      "weight": 1.0
+    },
+    {
+      "source": "pages_products_productspage",
+      "target": "pages_products_productspage_setupcategorydropdownlisteners",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\pages\\products.js",
+      "source_location": "L248",
+      "weight": 1.0
+    },
+    {
+      "source": "pages_products_productspage",
+      "target": "pages_products_productspage_setupproductcardlisteners",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\pages\\products.js",
+      "source_location": "L330",
+      "weight": 1.0
+    },
+    {
+      "source": "pages_products_productspage",
+      "target": "pages_products_productspage_findproductbyid",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\pages\\products.js",
+      "source_location": "L347",
+      "weight": 1.0
+    },
+    {
+      "source": "pages_products_productspage",
+      "target": "pages_products_productspage_getpaginatedproducts",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\pages\\products.js",
+      "source_location": "L351",
+      "weight": 1.0
+    },
+    {
+      "source": "pages_products_productspage",
+      "target": "pages_products_productspage_renderpaginationcontrols",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\pages\\products.js",
+      "source_location": "L357",
+      "weight": 1.0
+    },
+    {
+      "source": "pages_products_productspage",
+      "target": "pages_products_productspage_setuppaginationlisteners",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\pages\\products.js",
+      "source_location": "L390",
+      "weight": 1.0
+    },
+    {
+      "source": "pages_products_productspage",
+      "target": "pages_products_productspage_renderpaginatedcategory",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\pages\\products.js",
+      "source_location": "L412",
+      "weight": 1.0
+    },
+    {
+      "source": "pages_products_productspage_render",
+      "target": "pages_products_productspage_rendersearchresults",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\pages\\products.js",
+      "source_location": "L55",
+      "weight": 1.0
+    },
+    {
+      "source": "pages_products_productspage_render",
+      "target": "pages_products_productspage_renderproductswithcategories",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\pages\\products.js",
+      "source_location": "L58",
+      "weight": 1.0
+    },
+    {
+      "source": "pages_products_productspage_rendersearchresults",
+      "target": "pages_products_productspage_setupproductcardlisteners",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\pages\\products.js",
+      "source_location": "L133",
+      "weight": 1.0
+    },
+    {
+      "source": "pages_products_productspage_renderproductswithcategories",
+      "target": "pages_products_productspage_groupproductsbycategory",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\pages\\products.js",
+      "source_location": "L139",
+      "weight": 1.0
+    },
+    {
+      "source": "pages_products_productspage_renderproductswithcategories",
+      "target": "pages_products_productspage_rendercategorydropdown",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\pages\\products.js",
+      "source_location": "L145",
+      "weight": 1.0
+    },
+    {
+      "source": "pages_products_productspage_renderproductswithcategories",
+      "target": "pages_products_productspage_renderallproductssection",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\pages\\products.js",
+      "source_location": "L147",
+      "weight": 1.0
+    },
+    {
+      "source": "pages_products_productspage_renderproductswithcategories",
+      "target": "pages_products_productspage_rendercategorysections",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\pages\\products.js",
+      "source_location": "L148",
+      "weight": 1.0
+    },
+    {
+      "source": "pages_products_productspage_renderproductswithcategories",
+      "target": "pages_products_productspage_setupcategorydropdownlisteners",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\pages\\products.js",
+      "source_location": "L152",
+      "weight": 1.0
+    },
+    {
+      "source": "pages_products_productspage_renderproductswithcategories",
+      "target": "pages_products_productspage_setuppaginationlisteners",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\pages\\products.js",
+      "source_location": "L153",
+      "weight": 1.0
+    },
+    {
+      "source": "pages_products_productspage_rendercategorydropdown",
+      "target": "pages_products_productspage_groupproductsbycategory",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\pages\\products.js",
+      "source_location": "L157",
+      "weight": 1.0
+    },
+    {
+      "source": "pages_products_productspage_renderallproductssection",
+      "target": "pages_products_productspage_getpaginatedproducts",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\pages\\products.js",
+      "source_location": "L193",
+      "weight": 1.0
+    },
+    {
+      "source": "pages_products_productspage_renderallproductssection",
+      "target": "pages_products_productspage_renderpaginationcontrols",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\pages\\products.js",
+      "source_location": "L201",
+      "weight": 1.0
+    },
+    {
+      "source": "pages_products_productspage_renderpaginatedcategory",
+      "target": "pages_products_productspage_groupproductsbycategory",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\pages\\products.js",
+      "source_location": "L413",
+      "weight": 1.0
+    },
+    {
+      "source": "pages_products_productspage_renderpaginatedcategory",
+      "target": "pages_products_productspage_getpaginatedproducts",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\pages\\products.js",
+      "source_location": "L416",
+      "weight": 1.0
+    },
+    {
+      "source": "pages_products_productspage_renderpaginatedcategory",
+      "target": "pages_products_productspage_renderpaginationcontrols",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\pages\\products.js",
+      "source_location": "L428",
+      "weight": 1.0
+    },
+    {
+      "source": "pages_products_productspage_renderpaginatedcategory",
+      "target": "pages_products_productspage_setuppaginationlisteners",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\pages\\products.js",
+      "source_location": "L432",
+      "weight": 1.0
+    },
+    {
+      "source": "js_utils_helpers_js",
+      "target": "utils_helpers_helpers",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\utils\\helpers.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "utils_helpers_helpers",
+      "target": "utils_helpers_helpers_formatcurrency",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\utils\\helpers.js",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "utils_helpers_helpers",
+      "target": "utils_helpers_helpers_formatdate",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\utils\\helpers.js",
+      "source_location": "L9",
+      "weight": 1.0
+    },
+    {
+      "source": "utils_helpers_helpers",
+      "target": "utils_helpers_helpers_shownotification",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\utils\\helpers.js",
+      "source_location": "L17",
+      "weight": 1.0
+    },
+    {
+      "source": "utils_helpers_helpers",
+      "target": "utils_helpers_helpers_showerror",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\utils\\helpers.js",
+      "source_location": "L34",
+      "weight": 1.0
+    },
+    {
+      "source": "utils_helpers_helpers",
+      "target": "utils_helpers_helpers_showsuccess",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\utils\\helpers.js",
+      "source_location": "L38",
+      "weight": 1.0
+    },
+    {
+      "source": "utils_helpers_helpers",
+      "target": "utils_helpers_helpers_showloading",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\utils\\helpers.js",
+      "source_location": "L42",
+      "weight": 1.0
+    },
+    {
+      "source": "utils_helpers_helpers",
+      "target": "utils_helpers_helpers_generateorderid",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\utils\\helpers.js",
+      "source_location": "L46",
+      "weight": 1.0
+    },
+    {
+      "source": "utils_helpers_helpers",
+      "target": "utils_helpers_helpers_delay",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\utils\\helpers.js",
+      "source_location": "L50",
+      "weight": 1.0
+    },
+    {
+      "source": "utils_helpers_helpers",
+      "target": "utils_helpers_helpers_deepclone",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\utils\\helpers.js",
+      "source_location": "L54",
+      "weight": 1.0
+    },
+    {
+      "source": "utils_helpers_helpers",
+      "target": "utils_helpers_helpers_handleapierror",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\utils\\helpers.js",
+      "source_location": "L59",
+      "weight": 1.0
+    },
+    {
+      "source": "utils_helpers_helpers_showerror",
+      "target": "utils_helpers_helpers_shownotification",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\utils\\helpers.js",
+      "source_location": "L35",
+      "weight": 1.0
+    },
+    {
+      "source": "utils_helpers_helpers_showsuccess",
+      "target": "utils_helpers_helpers_shownotification",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\utils\\helpers.js",
+      "source_location": "L39",
+      "weight": 1.0
+    },
+    {
+      "source": "utils_helpers_helpers_handleapierror",
+      "target": "utils_helpers_helpers_showerror",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\utils\\helpers.js",
+      "source_location": "L64",
+      "weight": 1.0
+    },
+    {
+      "source": "js_utils_storage_js",
+      "target": "utils_storage_storageservice",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\utils\\storage.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "utils_storage_storageservice",
+      "target": "utils_storage_storageservice_settoken",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\utils\\storage.js",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "utils_storage_storageservice",
+      "target": "utils_storage_storageservice_gettoken",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\utils\\storage.js",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "utils_storage_storageservice",
+      "target": "utils_storage_storageservice_removetoken",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\utils\\storage.js",
+      "source_location": "L10",
+      "weight": 1.0
+    },
+    {
+      "source": "utils_storage_storageservice",
+      "target": "utils_storage_storageservice_setuser",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\utils\\storage.js",
+      "source_location": "L14",
+      "weight": 1.0
+    },
+    {
+      "source": "utils_storage_storageservice",
+      "target": "utils_storage_storageservice_getuser",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\utils\\storage.js",
+      "source_location": "L18",
+      "weight": 1.0
+    },
+    {
+      "source": "utils_storage_storageservice",
+      "target": "utils_storage_storageservice_removeuser",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\utils\\storage.js",
+      "source_location": "L23",
+      "weight": 1.0
+    },
+    {
+      "source": "utils_storage_storageservice",
+      "target": "utils_storage_storageservice_setcart",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\utils\\storage.js",
+      "source_location": "L27",
+      "weight": 1.0
+    },
+    {
+      "source": "utils_storage_storageservice",
+      "target": "utils_storage_storageservice_getcart",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\utils\\storage.js",
+      "source_location": "L31",
+      "weight": 1.0
+    },
+    {
+      "source": "utils_storage_storageservice",
+      "target": "utils_storage_storageservice_addtocart",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\utils\\storage.js",
+      "source_location": "L36",
+      "weight": 1.0
+    },
+    {
+      "source": "utils_storage_storageservice",
+      "target": "utils_storage_storageservice_removefromcart",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\utils\\storage.js",
+      "source_location": "L50",
+      "weight": 1.0
+    },
+    {
+      "source": "utils_storage_storageservice",
+      "target": "utils_storage_storageservice_updatecartitem",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\utils\\storage.js",
+      "source_location": "L57",
+      "weight": 1.0
+    },
+    {
+      "source": "utils_storage_storageservice",
+      "target": "utils_storage_storageservice_clearcart",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\utils\\storage.js",
+      "source_location": "L72",
+      "weight": 1.0
+    },
+    {
+      "source": "utils_storage_storageservice",
+      "target": "utils_storage_storageservice_isloggedin",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\utils\\storage.js",
+      "source_location": "L76",
+      "weight": 1.0
+    },
+    {
+      "source": "utils_storage_storageservice",
+      "target": "utils_storage_storageservice_logout",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\utils\\storage.js",
+      "source_location": "L82",
+      "weight": 1.0
+    },
+    {
+      "source": "utils_storage_storageservice_addtocart",
+      "target": "utils_storage_storageservice_getcart",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\utils\\storage.js",
+      "source_location": "L37",
+      "weight": 1.0
+    },
+    {
+      "source": "utils_storage_storageservice_addtocart",
+      "target": "utils_storage_storageservice_setcart",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\utils\\storage.js",
+      "source_location": "L46",
+      "weight": 1.0
+    },
+    {
+      "source": "utils_storage_storageservice_removefromcart",
+      "target": "utils_storage_storageservice_getcart",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\utils\\storage.js",
+      "source_location": "L51",
+      "weight": 1.0
+    },
+    {
+      "source": "utils_storage_storageservice_removefromcart",
+      "target": "utils_storage_storageservice_setcart",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\utils\\storage.js",
+      "source_location": "L53",
+      "weight": 1.0
+    },
+    {
+      "source": "utils_storage_storageservice_updatecartitem",
+      "target": "utils_storage_storageservice_getcart",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\utils\\storage.js",
+      "source_location": "L58",
+      "weight": 1.0
+    },
+    {
+      "source": "utils_storage_storageservice_updatecartitem",
+      "target": "utils_storage_storageservice_removefromcart",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\utils\\storage.js",
+      "source_location": "L63",
+      "weight": 1.0
+    },
+    {
+      "source": "utils_storage_storageservice_updatecartitem",
+      "target": "utils_storage_storageservice_setcart",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\utils\\storage.js",
+      "source_location": "L66",
+      "weight": 1.0
+    },
+    {
+      "source": "utils_storage_storageservice_isloggedin",
+      "target": "utils_storage_storageservice_getuser",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\utils\\storage.js",
+      "source_location": "L77",
+      "weight": 1.0
+    },
+    {
+      "source": "utils_storage_storageservice_logout",
+      "target": "utils_storage_storageservice_removetoken",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\utils\\storage.js",
+      "source_location": "L83",
+      "weight": 1.0
+    },
+    {
+      "source": "utils_storage_storageservice_logout",
+      "target": "utils_storage_storageservice_removeuser",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\utils\\storage.js",
+      "source_location": "L84",
+      "weight": 1.0
+    },
+    {
+      "source": "utils_storage_storageservice_logout",
+      "target": "utils_storage_storageservice_clearcart",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\utils\\storage.js",
+      "source_location": "L85",
+      "weight": 1.0
+    },
+    {
+      "source": "js_utils_validators_js",
+      "target": "utils_validators_validators",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\utils\\validators.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "utils_validators_validators",
+      "target": "utils_validators_validators_isvalidemail",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\utils\\validators.js",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "utils_validators_validators",
+      "target": "utils_validators_validators_isvalidpassword",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\utils\\validators.js",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "utils_validators_validators",
+      "target": "utils_validators_validators_isvalidname",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\utils\\validators.js",
+      "source_location": "L13",
+      "weight": 1.0
+    },
+    {
+      "source": "utils_validators_validators",
+      "target": "utils_validators_validators_isvalidphonenumber",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\utils\\validators.js",
+      "source_location": "L17",
+      "weight": 1.0
+    },
+    {
+      "source": "utils_validators_validators",
+      "target": "utils_validators_validators_validatesignupform",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\utils\\validators.js",
+      "source_location": "L22",
+      "weight": 1.0
+    },
+    {
+      "source": "utils_validators_validators",
+      "target": "utils_validators_validators_validateloginform",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\utils\\validators.js",
+      "source_location": "L44",
+      "weight": 1.0
+    },
+    {
+      "source": "utils_validators_validators",
+      "target": "utils_validators_validators_validatecheckoutform",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\utils\\validators.js",
+      "source_location": "L58",
+      "weight": 1.0
+    },
+    {
+      "source": "utils_validators_validators_validatesignupform",
+      "target": "utils_validators_validators_isvalidname",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\utils\\validators.js",
+      "source_location": "L25",
+      "weight": 1.0
+    },
+    {
+      "source": "utils_validators_validators_validatesignupform",
+      "target": "utils_validators_validators_isvalidemail",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\utils\\validators.js",
+      "source_location": "L29",
+      "weight": 1.0
+    },
+    {
+      "source": "utils_validators_validators_validatesignupform",
+      "target": "utils_validators_validators_isvalidpassword",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\utils\\validators.js",
+      "source_location": "L33",
+      "weight": 1.0
+    },
+    {
+      "source": "utils_validators_validators_validateloginform",
+      "target": "utils_validators_validators_isvalidemail",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\utils\\validators.js",
+      "source_location": "L47",
+      "weight": 1.0
+    },
+    {
+      "source": "utils_validators_validators_validatecheckoutform",
+      "target": "utils_validators_validators_isvalidname",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\utils\\validators.js",
+      "source_location": "L61",
+      "weight": 1.0
+    },
+    {
+      "source": "utils_validators_validators_validatecheckoutform",
+      "target": "utils_validators_validators_isvalidemail",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\utils\\validators.js",
+      "source_location": "L69",
+      "weight": 1.0
+    },
+    {
+      "source": "utils_validators_validators_validatecheckoutform",
+      "target": "utils_validators_validators_isvalidphonenumber",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "js\\utils\\validators.js",
+      "source_location": "L73",
+      "weight": 1.0
+    },
+    {
+      "source": "api_orderservice_orderservice_cancelorder",
+      "target": "js_config_getapibaseurl",
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "js\\api\\orderService.js",
+      "source_location": "L136",
+      "weight": 1.0
+    },
+    {
+      "source": "pages_orders_orderspage_cancelorder",
+      "target": "components_modal_modal_confirm",
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "js\\pages\\orders.js",
+      "source_location": "L130",
+      "weight": 1.0
+    },
+    {
+      "source": "pages_orders_orderspage_cancelorder",
+      "target": "components_modal_modal_alert",
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "js\\pages\\orders.js",
+      "source_location": "L139",
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": [],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

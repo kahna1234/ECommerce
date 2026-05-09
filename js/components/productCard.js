@@ -141,7 +141,7 @@ export class ProductCard {
             id: product.id,
             title: product.title || product.name || 'Product',
             price: product.price,
-            image: product.imageUrl || product.image_url,
+            image: product.imageUrl || product.image_url || 'https://images.unsplash.com/photo-1592750475338-74b7bb210bab?w=400&h=400&fit=crop',
             quantity: 1
         };
 
@@ -166,14 +166,17 @@ export class ProductCard {
     }
 
     static updateCartQuantityForProduct(productId) {
-        // Update all quantity badges for this product
-        const badges = document.querySelectorAll(`[data-cart-quantity]`);
-        badges.forEach(badge => {
-            const button = badge.closest('.product-card')?.querySelector('[data-product-id]');
-            if (button && button.getAttribute('data-product-id') === productId) {
-                const quantity = this.getCartQuantity(productId);
-                badge.textContent = `+${quantity}`;
-                badge.classList.toggle('visible', quantity > 0);
+        // Update all quantity badges for this product across all product cards
+        const productCards = document.querySelectorAll('.product-card');
+        productCards.forEach(card => {
+            const button = card.querySelector('[data-product-id]');
+            if (button && button.getAttribute('data-product-id') == productId) {
+                const badge = card.querySelector('[data-cart-quantity]');
+                if (badge) {
+                    const quantity = this.getCartQuantity(productId);
+                    badge.textContent = `+${quantity}`;
+                    badge.classList.toggle('visible', quantity > 0);
+                }
             }
         });
     }

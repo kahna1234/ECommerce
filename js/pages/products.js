@@ -4,40 +4,96 @@
 
 import { ProductService } from '../api/productService.js';
 import { SearchService } from '../api/searchService.js';
+import { CategoryService } from '../api/categoryService.js';
 import { ProductCard } from '../components/productCard.js';
 import { Helpers } from '../utils/helpers.js';
 
 export class ProductsPage {
-    static categories = {
-        1: { name: 'Phones & Mobile', icon: '📱' },
-        2: { name: 'Laptops & Computers', icon: '💻' },
-        3: { name: 'TVs & Audio', icon: '📺' },
-        4: { name: 'Cameras & Accessories', icon: '📷' },
-        5: { name: 'Home Appliances', icon: '🏠' },
-        6: { name: "Men's Fashion", icon: '👔' },
-        7: { name: "Women's Fashion", icon: '👗' },
-        8: { name: 'Footwear', icon: '👟' },
-        9: { name: 'Books', icon: '📚' },
-        10: { name: 'Sports & Outdoors', icon: '🏸' },
-        11: { name: 'Beauty & Personal Care', icon: '💄' },
-        12: { name: 'Toys & Games', icon: '🧸' },
-        13: { name: 'Home & Garden', icon: '🏡' }
+    static categories = {};
+    static categoryIcons = {
+        'Electronics': '📱',
+        'Clothing': '👔',
+        'Home & Garden': '🏠',
+        'Sports & Outdoors': '🏸',
+        'Books & Media': '📚',
+        'Toys & Games': '🧸',
+        'Health & Beauty': '💄',
+        'Food & Beverages': '🍔',
+        'Automotive': '🚗',
+        'Office Supplies': '📝',
+        'Pet Supplies': '🐕',
+        'Baby Products': '👶',
+        'Jewelry & Accessories': '💎'
     };
 
     static allProducts = [];
     static currentPage = 1;
     static itemsPerPage = 12;
     static currentCategory = 'all';
+    
+    // Cache for temporary storage
+    static cache = {
+        categories: null,
+        products: null,
+        categoriesTimestamp: null,
+        productsTimestamp: null,
+        CACHE_DURATION: 5 * 60 * 1000 // 5 minutes
+    };
+
+    static isCacheValid(timestamp) {
+        return timestamp && (Date.now() - timestamp) < this.cache.CACHE_DURATION;
+    }
+
+    static async getCachedCategories() {
+        if (this.isCacheValid(this.cache.categoriesTimestamp)) {
+            return this.cache.categories;
+        }
+        
+        const categoriesResult = await CategoryService.getAllCategories();
+        if (categoriesResult.success) {
+            const categories = {};
+            categoriesResult.categories.forEach(category => {
+                categories[category.id] = {
+                    name: category.name,
+                    description: category.description,
+                    icon: this.categoryIcons[category.name] || '📦'
+                };
+            });
+            this.cache.categories = categories;
+            this.cache.categoriesTimestamp = Date.now();
+            return categories;
+        }
+        return {};
+    }
+
+    static async getCachedProducts() {
+        if (this.isCacheValid(this.cache.productsTimestamp)) {
+            return this.cache.products;
+        }
+        
+        const result = await ProductService.getAllProducts();
+        if (result.success) {
+            const products = result.products || result.results || [];
+            this.cache.products = Array.isArray(products) ? products : (products.content || []);
+            this.cache.productsTimestamp = Date.now();
+            return this.cache.products;
+        }
+        return [];
+    }
 
     static async render(searchQuery = '') {
         const container = document.getElementById('app-container');
         Helpers.showLoading(container);
 
+        // Get categories from cache or fetch
+        this.categories = await this.getCachedCategories();
+
         let result;
         if (searchQuery) {
             result = await SearchService.searchProducts(searchQuery);
         } else {
-            result = await ProductService.getAllProducts();
+            const products = await this.getCachedProducts();
+            result = { success: true, products: products };
         }
 
         if (!result.success) {
@@ -151,6 +207,7 @@ export class ProductsPage {
 
         this.setupCategoryDropdownListeners();
         this.setupPaginationListeners();
+        this.setupProductCardListeners();
     }
 
     static renderCategoryDropdown() {
@@ -263,7 +320,7 @@ export class ProductsPage {
 
         // Handle category selection
         dropdownItems.forEach(item => {
-            item.addEventListener('click', () => {
+            item.addEventListener('click', async () => {
                 const category = item.dataset.category;
                 
                 // Reset page when switching categories
@@ -296,17 +353,25 @@ export class ProductsPage {
                         }
                     });
                 } else {
-                    // Hide all products section and show specific category section
-                    if (allProductsSection) {
-                        allProductsSection.style.display = 'none';
-                    }
-                    categorySections.forEach(section => {
-                        if (section.id === `category-${category}`) {
-                            section.style.display = 'block';
-                        } else {
-                            section.style.display = 'none';
+                    // Use cached products and filter by category
+                    const container = document.getElementById('app-container');
+                    Helpers.showLoading(container);
+                    
+                    // Get all cached products and filter by category
+                    const allCachedProducts = await this.getCachedProducts();
+                    const categoryProducts = allCachedProducts.filter(product => {
+                        const categoryId = (product.category && product.category.id) || product.category_id || 1;
+                        return categoryId == category;
+                    });
+                    
+                    // Merge into allProducts so they can be found by findProductById
+                    categoryProducts.forEach(p => {
+                        if (!this.allProducts.find(existing => existing.id === p.id)) {
+                            this.allProducts.push(p);
                         }
                     });
+                    
+                    this.renderCategoryProducts(category, categoryProducts);
                 }
                 
                 // Setup product card listeners for newly visible products
@@ -327,13 +392,73 @@ export class ProductsPage {
         });
     }
 
+    static async renderCategoryProducts(categoryId, products) {
+        const container = document.getElementById('app-container');
+        const categoryName = this.categories[categoryId]?.name || 'Category';
+        
+        if (!products || products.length === 0) {
+            container.innerHTML = `
+                <div class="products-container">
+                    <div class="products-header">
+                        <h2>${categoryName}</h2>
+                        <button class="back-to-all-btn" id="back-to-all-btn">Back to All Products</button>
+                    </div>
+                    <div class="no-products"><p>No products found in ${categoryName}</p></div>
+                </div>
+            `;
+            
+            const backBtn = container.querySelector('#back-to-all-btn');
+            if (backBtn) {
+                backBtn.addEventListener('click', (e) => {
+                    e.preventDefault();
+                    e.stopPropagation();
+                    ProductsPage.currentCategory = 'all';
+                    ProductsPage.currentPage = 1;
+                    ProductsPage.renderProductsWithCategories();
+                });
+            }
+            return;
+        }
+
+        const paginatedProducts = this.getPaginatedProducts(products);
+        const totalPages = Math.ceil(products.length / this.itemsPerPage);
+
+        container.innerHTML = `
+            <div class="products-container">
+                <div class="products-header">
+                    <h2>${categoryName}</h2>
+                    <p style="color: #6c757d; margin-top: 0.5rem;">Found ${products.length} product${products.length !== 1 ? 's' : ''}</p>
+                    <button class="back-to-all-btn" id="back-to-all-btn">Back to All Products</button>
+                </div>
+                <div class="products-grid">
+                    ${paginatedProducts.map(product => ProductCard.renderHTML(product)).join('')}
+                </div>
+                ${this.renderPaginationControls(totalPages, categoryId)}
+            </div>
+        `;
+
+        this.setupProductCardListeners();
+        this.setupPaginationListeners();
+        
+        const backBtn = container.querySelector('#back-to-all-btn');
+        if (backBtn) {
+            backBtn.addEventListener('click', (e) => {
+                e.preventDefault();
+                e.stopPropagation();
+                ProductsPage.currentCategory = 'all';
+                ProductsPage.currentPage = 1;
+                ProductsPage.renderProductsWithCategories();
+            });
+        }
+    }
+
     static setupProductCardListeners() {
         const addButtons = document.querySelectorAll('.add-to-cart-btn');
         addButtons.forEach(button => {
             if (!button.hasAttribute('data-listener-added')) {
                 button.setAttribute('data-listener-added', 'true');
                 button.addEventListener('click', async (e) => {
-                    const productId = e.target.getAttribute('data-product-id');
+                    const productId = button.getAttribute('data-product-id');
                     const product = this.findProductById(productId);
                     
                     if (product) {

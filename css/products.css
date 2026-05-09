@@ -6,12 +6,35 @@
     margin-bottom: 3rem;
     padding-bottom: 2rem;
     border-bottom: 2px solid #e9ecef;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 1rem;
 }
 
 .products-header h2 {
     font-size: 2rem;
     color: #343a40;
     margin: 0;
+}
+
+.back-to-all-btn {
+    padding: 0.5rem 1rem;
+    background: #6c757d;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    font-weight: 500;
+    transition: all 0.2s ease;
+    text-decoration: none;
+}
+
+.back-to-all-btn:hover {
+    background: #5a6268;
+    transform: translateY(-2px);
 }
 
 .products-grid {
@@ -186,6 +209,35 @@
 .add-to-cart-btn:disabled:hover {
     background-color: #adb5bd;
     transform: none;
+}
+
+/* ============================================
+   CART QUANTITY BADGE
+   ============================================ */
+.cart-quantity-badge {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    background-color: var(--success-color);
+    color: white;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.75rem;
+    font-weight: 600;
+    opacity: 0;
+    transform: scale(0.8);
+    transition: all 0.3s ease;
+    pointer-events: none;
+    z-index: 10;
+}
+
+.cart-quantity-badge.visible {
+    opacity: 1;
+    transform: scale(1);
 }
 
 /* ============================================

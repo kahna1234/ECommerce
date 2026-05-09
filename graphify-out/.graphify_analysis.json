@@ -1,0 +1,295 @@
+{
+  "communities": {
+    "0": [
+      "js_pages_products_js",
+      "pages_products_productspage",
+      "pages_products_productspage_findproductbyid",
+      "pages_products_productspage_getpaginatedproducts",
+      "pages_products_productspage_groupproductsbycategory",
+      "pages_products_productspage_render",
+      "pages_products_productspage_renderallproductssection",
+      "pages_products_productspage_rendercategorydropdown",
+      "pages_products_productspage_rendercategorysections",
+      "pages_products_productspage_renderpaginatedcategory",
+      "pages_products_productspage_renderpaginationcontrols",
+      "pages_products_productspage_renderproductsgrid",
+      "pages_products_productspage_renderproductswithcategories",
+      "pages_products_productspage_rendersearchresults",
+      "pages_products_productspage_setupcategorydropdownlisteners",
+      "pages_products_productspage_setuppaginationlisteners",
+      "pages_products_productspage_setupproductcardlisteners"
+    ],
+    "1": [
+      "js_utils_storage_js",
+      "utils_storage_storageservice",
+      "utils_storage_storageservice_addtocart",
+      "utils_storage_storageservice_clearcart",
+      "utils_storage_storageservice_getcart",
+      "utils_storage_storageservice_gettoken",
+      "utils_storage_storageservice_getuser",
+      "utils_storage_storageservice_isloggedin",
+      "utils_storage_storageservice_logout",
+      "utils_storage_storageservice_removefromcart",
+      "utils_storage_storageservice_removetoken",
+      "utils_storage_storageservice_removeuser",
+      "utils_storage_storageservice_setcart",
+      "utils_storage_storageservice_settoken",
+      "utils_storage_storageservice_setuser",
+      "utils_storage_storageservice_updatecartitem"
+    ],
+    "2": [
+      "js_utils_helpers_js",
+      "utils_helpers_helpers",
+      "utils_helpers_helpers_deepclone",
+      "utils_helpers_helpers_delay",
+      "utils_helpers_helpers_formatcurrency",
+      "utils_helpers_helpers_formatdate",
+      "utils_helpers_helpers_generateorderid",
+      "utils_helpers_helpers_handleapierror",
+      "utils_helpers_helpers_showerror",
+      "utils_helpers_helpers_showloading",
+      "utils_helpers_helpers_shownotification",
+      "utils_helpers_helpers_showsuccess"
+    ],
+    "3": [
+      "api_orderservice_orderservice",
+      "api_orderservice_orderservice_calculatetotal",
+      "api_orderservice_orderservice_cancelorder",
+      "api_orderservice_orderservice_createorder",
+      "api_orderservice_orderservice_getorderbyid",
+      "api_orderservice_orderservice_getuserorders",
+      "api_orderservice_orderservice_prepareorderdata",
+      "js_api_orderservice_js",
+      "js_config_getapibaseurl",
+      "js_config_js",
+      "js_config_normalizebaseurl"
+    ],
+    "4": [
+      "components_navbar_navbar",
+      "components_navbar_navbar_attacheventlisteners",
+      "components_navbar_navbar_fetchsuggestions",
+      "components_navbar_navbar_handlekeyboardnavigation",
+      "components_navbar_navbar_hidesuggestions",
+      "components_navbar_navbar_highlightsuggestion",
+      "components_navbar_navbar_render",
+      "components_navbar_navbar_showsuggestions",
+      "components_navbar_navbar_synccartfromserver",
+      "components_navbar_navbar_updatecartcount",
+      "js_components_navbar_js"
+    ],
+    "5": [
+      "components_modal_modal",
+      "components_modal_modal_alert",
+      "components_modal_modal_confirm",
+      "components_modal_modal_open",
+      "js_components_modal_js",
+      "js_pages_orders_js",
+      "pages_orders_orderspage",
+      "pages_orders_orderspage_cancelorder",
+      "pages_orders_orderspage_render",
+      "pages_orders_orderspage_renderordercard",
+      "pages_orders_orderspage_showorderdetails"
+    ],
+    "6": [
+      "js_utils_validators_js",
+      "utils_validators_validators",
+      "utils_validators_validators_isvalidemail",
+      "utils_validators_validators_isvalidname",
+      "utils_validators_validators_isvalidpassword",
+      "utils_validators_validators_isvalidphonenumber",
+      "utils_validators_validators_validatecheckoutform",
+      "utils_validators_validators_validateloginform",
+      "utils_validators_validators_validatesignupform"
+    ],
+    "7": [
+      "api_authservice_authservice",
+      "api_authservice_authservice_getcurrentuser",
+      "api_authservice_authservice_isloggedin",
+      "api_authservice_authservice_login",
+      "api_authservice_authservice_logout",
+      "api_authservice_authservice_signup",
+      "api_authservice_authservice_validatetoken",
+      "js_api_authservice_js"
+    ],
+    "8": [
+      "components_productcard_productcard",
+      "components_productcard_productcard_getcartquantity",
+      "components_productcard_productcard_handleaddtocart",
+      "components_productcard_productcard_render",
+      "components_productcard_productcard_renderhtml",
+      "components_productcard_productcard_updatecartquantitybadge",
+      "components_productcard_productcard_updatecartquantityforproduct",
+      "js_components_productcard_js"
+    ],
+    "9": [
+      "js_app_app",
+      "js_app_app_init",
+      "js_app_app_navigate",
+      "js_app_app_rendercurrenthash",
+      "js_app_app_renderhome",
+      "js_app_app_setuprouting",
+      "js_app_js"
+    ],
+    "10": [
+      "api_cartservice_cartapiservice",
+      "api_cartservice_cartapiservice_addtocart",
+      "api_cartservice_cartapiservice_clearcart",
+      "api_cartservice_cartapiservice_getcart",
+      "api_cartservice_cartapiservice_removeitem",
+      "api_cartservice_cartapiservice_updateitem",
+      "js_api_cartservice_js"
+    ],
+    "11": [
+      "api_productservice_productservice",
+      "api_productservice_productservice_createproduct",
+      "api_productservice_productservice_deleteproduct",
+      "api_productservice_productservice_getallproducts",
+      "api_productservice_productservice_getproductbyid",
+      "api_productservice_productservice_updateproduct",
+      "js_api_productservice_js"
+    ],
+    "12": [
+      "api_searchservice_searchservice",
+      "api_searchservice_searchservice_getsearchsuggestions",
+      "api_searchservice_searchservice_searchbycategory",
+      "api_searchservice_searchservice_searchbyprice",
+      "api_searchservice_searchservice_searchproducts",
+      "js_api_searchservice_js"
+    ],
+    "13": [
+      "js_pages_auth_js",
+      "pages_auth_authpage",
+      "pages_auth_authpage_handlelogin",
+      "pages_auth_authpage_handlesignup",
+      "pages_auth_authpage_renderlogin",
+      "pages_auth_authpage_rendersignup"
+    ],
+    "14": [
+      "api_inventoryservice_inventoryservice",
+      "api_inventoryservice_inventoryservice_getallinventory",
+      "api_inventoryservice_inventoryservice_getinventory",
+      "api_inventoryservice_inventoryservice_updateinventory",
+      "js_api_inventoryservice_js"
+    ],
+    "15": [
+      "js_idletimeout_js",
+      "js_idletimeout_logoutuser",
+      "js_idletimeout_resetidletimer",
+      "js_idletimeout_setupidletracking"
+    ],
+    "16": [
+      "api_paymentservice_paymentservice",
+      "api_paymentservice_paymentservice_generatepaymentlink",
+      "api_paymentservice_paymentservice_openpaymentgateway",
+      "js_api_paymentservice_js"
+    ],
+    "17": [
+      "js_pages_checkout_js",
+      "pages_checkout_checkoutpage",
+      "pages_checkout_checkoutpage_handlecheckout",
+      "pages_checkout_checkoutpage_render"
+    ],
+    "18": [
+      "components_cartitem_cartitem",
+      "components_cartitem_cartitem_render",
+      "js_components_cartitem_js"
+    ],
+    "19": [
+      "js_pages_cart_js",
+      "pages_cart_cartpage",
+      "pages_cart_cartpage_render"
+    ],
+    "20": [
+      "js_pages_paymentsuccess_js",
+      "pages_paymentsuccess_paymentsuccesspage",
+      "pages_paymentsuccess_paymentsuccesspage_render"
+    ],
+    "21": [
+      "dev_server_js"
+    ]
+  },
+  "cohesion": {
+    "0": 0.24,
+    "1": 0.22,
+    "2": 0.21,
+    "3": 0.22,
+    "4": 0.29,
+    "5": 0.25,
+    "6": 0.42,
+    "7": 0.25,
+    "8": 0.39,
+    "9": 0.48,
+    "10": 0.29,
+    "11": 0.29,
+    "12": 0.53,
+    "13": 0.33,
+    "14": 0.4,
+    "15": 0.67,
+    "16": 0.5,
+    "17": 0.5,
+    "18": 0.67,
+    "19": 0.67,
+    "20": 0.67,
+    "21": 1.0
+  },
+  "gods": [
+    {
+      "id": "pages_products_productspage",
+      "label": "ProductsPage",
+      "degree": 16
+    },
+    {
+      "id": "utils_storage_storageservice",
+      "label": "StorageService",
+      "degree": 15
+    },
+    {
+      "id": "utils_helpers_helpers",
+      "label": "Helpers",
+      "degree": 11
+    },
+    {
+      "id": "components_navbar_navbar",
+      "label": "Navbar",
+      "degree": 10
+    },
+    {
+      "id": "utils_validators_validators",
+      "label": "Validators",
+      "degree": 8
+    },
+    {
+      "id": "api_authservice_authservice",
+      "label": "AuthService",
+      "degree": 7
+    },
+    {
+      "id": "api_orderservice_orderservice",
+      "label": "OrderService",
+      "degree": 7
+    },
+    {
+      "id": "components_productcard_productcard",
+      "label": "ProductCard",
+      "degree": 7
+    },
+    {
+      "id": "js_app_app",
+      "label": "App",
+      "degree": 6
+    },
+    {
+      "id": "api_cartservice_cartapiservice",
+      "label": "CartApiService",
+      "degree": 6
+    }
+  ],
+  "surprises": [],
+  "questions": [
+    {
+      "type": "no_signal",
+      "question": null,
+      "why": "Not enough signal to generate questions. This usually means the corpus has no AMBIGUOUS edges, no bridge nodes, no INFERRED relationships, and all communities are tightly cohesive. Add more files or run with --mode deep to extract richer edges."
+    }
+  ]
+}
